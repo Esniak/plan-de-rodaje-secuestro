@@ -437,6 +437,57 @@ body::before {
   letter-spacing: 0.05em;
 }
 
+/* Sequence preview inside day card */
+.day-card-seqs {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.day-seq-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+  line-height: 1.3;
+  color: var(--text-secondary);
+  min-width: 0;
+}
+
+.day-seq-id {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 600;
+  font-size: 0.68rem;
+  color: var(--accent);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.day-seq-syn {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  flex: 1;
+}
+
+.seq-dot {
+  font-size: 0.55rem;
+  flex-shrink: 0;
+}
+
+.seq-dot.has {
+  color: var(--status-done);
+}
+
+.seq-dot.no {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
 /* ---------- VIEW: DAY DETAIL ---------- */
 .day-header-card {
   background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-elevated) 100%);
@@ -579,28 +630,56 @@ body::before {
   color: var(--accent-bright);
 }
 
-.seq-status-btn {
+.seq-detail-actions {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.seq-status-btn-big {
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
   background: var(--bg-surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 6px 14px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 20px;
   cursor: pointer;
-  transition: all 0.2s var(--ease-out);
+  transition: all 0.25s var(--ease-out);
   color: var(--text-secondary);
-  font-size: 0.75rem;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-}
-
-.seq-status-btn:active {
-  transform: scale(0.95);
-}
-
-#seq-status-icon {
   font-size: 0.9rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.seq-status-btn-big:active {
+  transform: scale(0.97);
+}
+
+.status-icon-big {
+  font-size: 1.3rem;
+}
+
+/* Status-specific button styles — set via JS */
+.seq-status-btn-big[data-status="0"] {
+  border-color: var(--text-muted);
+  color: var(--text-muted);
+}
+
+.seq-status-btn-big[data-status="1"] {
+  border-color: var(--status-wip);
+  color: var(--status-wip);
+  background: rgba(232, 169, 74, 0.08);
+}
+
+.seq-status-btn-big[data-status="2"] {
+  border-color: var(--status-done);
+  color: var(--status-done);
+  background: rgba(74, 222, 128, 0.1);
 }
 
 .seq-detail-set {

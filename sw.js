@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pdr-secuestro-v2';
+const CACHE_NAME = 'pdr-secuestro-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -25,9 +25,9 @@ self.addEventListener('activate', (event) => {
   self.clients.claim();
 });
 
-// Fetch: cache-first, then network
+// Fetch: Network-first for app files, cache-first for fonts
 self.addEventListener('fetch', (event) => {
-  // Skip Google Fonts — always fetch from network
+  // Google Fonts — stale-while-revalidate
   if (event.request.url.includes('fonts.googleapis.com') || event.request.url.includes('fonts.gstatic.com')) {
     event.respondWith(
       caches.match(event.request).then(cached => {
@@ -42,7 +42,14 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
+  // App files — NETWORK FIRST (always get latest, fallback to cache offline)
   event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request))
+    fetch(event.request)
+      .then(response => {
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        return response;
+      })
+      .catch(() => caches.match(event.request))
   );
 });

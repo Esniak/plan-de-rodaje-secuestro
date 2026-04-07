@@ -1798,6 +1798,15 @@ function renderDays() {
     if (today) classes += ' today';
     else if (past) classes += ' past';
     
+    // Build compact sequence list for the day card
+    const seqListHtml = day.sequences.map(seq => {
+      const seqStatus = getSeqStatus(seq.id);
+      const hasScript = !!getSeqScript(seq.id);
+      const icon = STATUS_ICONS[seqStatus];
+      const scriptDot = hasScript ? '<span class="seq-dot has">●</span>' : '<span class="seq-dot no">○</span>';
+      return `<div class="day-seq-item">${icon} <span class="day-seq-id">Sec ${seq.id}</span> ${scriptDot} <span class="day-seq-syn">${seq.synopsis}</span></div>`;
+    }).join('');
+    
     html += `
       <div class="${classes}" onclick="openDay(${i})" role="button" tabindex="0" id="day-card-${i}">
         ${today ? '<span class="day-card-label today-label">HOY</span>' : ''}
@@ -1809,6 +1818,9 @@ function renderDays() {
           <span class="day-card-seqcount">${dayStats.total} sec</span>
         </div>
         <div class="day-card-location">${mainLocation}${extraLocs}</div>
+        <div class="day-card-seqs">
+          ${seqListHtml}
+        </div>
         <div class="day-card-progress">
           <div class="progress-bar"><div class="progress-fill" style="width:${progressPct}%"></div></div>
           <span class="progress-text">${dayStats.done}/${dayStats.total}</span>
@@ -1880,6 +1892,7 @@ function renderSequence(dayIndex, seqIndex) {
   document.getElementById('seq-detail-synopsis').textContent = seq.synopsis;
   document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
   document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
+  document.getElementById('seq-status-btn').setAttribute('data-status', status);
   
   // Script content
   const script = getSeqScript(seq.id);
@@ -1889,9 +1902,9 @@ function renderSequence(dayIndex, seqIndex) {
   } else {
     scriptContainer.innerHTML = `
       <div class="script-empty">
-        <span class="script-empty-icon">📄</span>
-        <span class="script-empty-text">Guion pendiente de añadir</span>
-        <span class="script-empty-hint">Cuando trabajes esta secuencia, la añadiremos aquí</span>
+        <span class="script-empty-icon">🎬</span>
+        <span class="script-empty-text">Sin guion de Omar</span>
+        <span class="script-empty-hint">Esta secuencia no tiene trabajo de personaje de Omar</span>
       </div>
     `;
   }
@@ -2055,9 +2068,12 @@ function cycleSeqStatus() {
   document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
   document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
   
-  // Small haptic animation
+  // Update button styling
   const btn = document.getElementById('seq-status-btn');
-  btn.style.transform = 'scale(1.1)';
+  btn.setAttribute('data-status', status);
+  
+  // Haptic animation
+  btn.style.transform = 'scale(1.05)';
   setTimeout(() => btn.style.transform = '', 200);
 }
 

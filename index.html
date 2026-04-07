@@ -89,13 +89,15 @@
       <div class="seq-detail-card" id="seq-detail-card">
         <div class="seq-detail-header">
           <span class="seq-detail-number" id="seq-detail-number">—</span>
-          <button class="seq-status-btn" id="seq-status-btn" onclick="cycleSeqStatus()">
-            <span id="seq-status-icon">⬜</span>
-            <span id="seq-status-text">Pendiente</span>
-          </button>
         </div>
         <div class="seq-detail-set" id="seq-detail-set">—</div>
         <div class="seq-detail-synopsis" id="seq-detail-synopsis">—</div>
+        <div class="seq-detail-actions">
+          <button class="seq-status-btn-big" id="seq-status-btn" onclick="cycleSeqStatus()">
+            <span id="seq-status-icon" class="status-icon-big">⬜</span>
+            <span id="seq-status-text">Pendiente</span>
+          </button>
+        </div>
       </div>
       <div class="seq-script-section">
         <div class="section-label">
