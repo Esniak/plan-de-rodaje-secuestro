@@ -2872,10 +2872,12 @@ function renderDay(dayIndex) {
   day.sequences.forEach((seq, i) => {
     const status = getSeqStatus(seq.id);
     const hasScript = !!getSeqScript(seq.id);
+    const scriptText = getSeqScript(seq.id);
+    const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
     
     html += `
-      <div class="seq-card ${hasScript ? 'seq-card-has-script' : ''}" onclick="openSequence(${dayIndex}, ${i})" role="button" tabindex="0" id="seq-card-${seq.id}">
-        <div class="seq-card-status">${STATUS_ICONS[status]}</div>
+      <div class="seq-card ${hasScript && !isReference ? 'seq-card-has-script' : ''}" onclick="openSequence(${dayIndex}, ${i})" role="button" tabindex="0" id="seq-card-${seq.id}">
+        <div class="seq-card-status" style="opacity: ${isReference ? '0' : '1'}">${STATUS_ICONS[status]}</div>
         <div class="seq-card-info">
           <div class="seq-card-number">Sec ${seq.id}</div>
           <div class="seq-card-set">${seq.set}</div>
@@ -2905,12 +2907,21 @@ function renderSequence(dayIndex, seqIndex) {
   document.getElementById('seq-detail-number').textContent = `Sec ${seq.id}`;
   document.getElementById('seq-detail-set').textContent = seq.set;
   document.getElementById('seq-detail-synopsis').textContent = seq.synopsis;
-  document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
-  document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
-  document.getElementById('seq-status-btn').setAttribute('data-status', status);
-  
+
   // Script content
   const script = getSeqScript(seq.id);
+  const isReference = script && script.includes('[SECUENCIA DE REFERENCIA');
+  
+  const statusBtn = document.getElementById('seq-status-btn');
+  if (isReference) {
+    statusBtn.style.display = 'none';
+  } else {
+    statusBtn.style.display = 'flex';
+    document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
+    document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
+    statusBtn.setAttribute('data-status', status);
+  }
+  
   const scriptContainer = document.getElementById('seq-script-content');
   if (script) {
     scriptContainer.innerHTML = `<div class="script-formatted">${formatScriptContent(script)}</div>`;
