@@ -2769,19 +2769,28 @@ function computeStats() {
   let doneSeqs = 0;
   let partSeqs = 0;
   let refSeqs = 0;
+  let completedDays = 0;
   
   SCHEDULE.forEach(day => {
+    let dayDoneSeqs = 0;
     day.sequences.forEach(seq => {
       totalSeqs++;
-      if (getSeqStatus(seq.id) === STATUS.DONE) doneSeqs++;
+      if (getSeqStatus(seq.id) === STATUS.DONE) {
+        doneSeqs++;
+        dayDoneSeqs++;
+      }
       const scriptText = getSeqScript(seq.id);
       const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
       if (isReference) refSeqs++;
       else partSeqs++;
     });
+    if (dayDoneSeqs === day.sequences.length && day.sequences.length > 0) {
+      completedDays++;
+    }
   });
   
-  return { totalDays: SCHEDULE.length, totalSeqs, doneSeqs, partSeqs, refSeqs };
+  const remainingDays = SCHEDULE.length - completedDays;
+  return { totalDays: SCHEDULE.length, remainingDays, totalSeqs, doneSeqs, partSeqs, refSeqs };
 }
 
 function getDayStats(dayIndex) {
@@ -2801,9 +2810,9 @@ function renderDays() {
   // Update stats
   document.getElementById('stat-part-seqs').textContent = stats.partSeqs;
   document.getElementById('stat-ref-seqs').textContent = stats.refSeqs;
-  document.getElementById('stat-total-days').textContent = stats.totalDays;
+  document.getElementById('stat-total-days').textContent = stats.remainingDays;
   document.getElementById('stat-ready').textContent = stats.doneSeqs;
-  document.getElementById('badge-count').textContent = stats.totalDays;
+  document.getElementById('badge-count').textContent = stats.remainingDays;
   document.getElementById('countdown-value').textContent = getCountdown();
   
   let html = '';
