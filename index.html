@@ -135,6 +135,35 @@
     </button>
   </nav>
 
+  <!-- Force cache update: clear old service worker caches -->
+  <script>
+    const APP_VERSION = 'v3';
+    const STORED_VERSION = localStorage.getItem('pdr_app_version');
+    
+    if (STORED_VERSION !== APP_VERSION) {
+      // Version mismatch - nuke all caches and re-register SW
+      if ('caches' in window) {
+        caches.keys().then(names => {
+          names.forEach(name => caches.delete(name));
+        });
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(registrations => {
+          registrations.forEach(reg => reg.unregister());
+        }).then(() => {
+          localStorage.setItem('pdr_app_version', APP_VERSION);
+          // Only reload if this was a version upgrade, not first visit
+          if (STORED_VERSION) {
+            window.location.reload(true);
+          } else {
+            localStorage.setItem('pdr_app_version', APP_VERSION);
+          }
+        });
+      } else {
+        localStorage.setItem('pdr_app_version', APP_VERSION);
+      }
+    }
+  </script>
   <script src="app.js"></script>
 </body>
 </html>
