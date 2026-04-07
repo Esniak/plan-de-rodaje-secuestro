@@ -2364,7 +2364,12 @@ Estado: pendiente
 [SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
 
 JOSE come apartado con los guerrilleros y sintoniza el TRANSISTOR. Àlvar come lejos, apartado.`
-};
+,
+  '2.02': `OMAR — 2.02
+Estado: pendiente
+
+Los guerrilleros hacen el primer rezo diario. SIDI muestra su fe.
+`};
 /* ================================================
    PLAN DE RODAJE — SECUESTRO (8.OMAR)
    App Logic & Data
@@ -2817,8 +2822,11 @@ function renderDays() {
     const seqListHtml = day.sequences.map(seq => {
       const seqStatus = getSeqStatus(seq.id);
       const hasScript = !!getSeqScript(seq.id);
-      const icon = STATUS_ICONS[seqStatus];
-      const scriptDot = hasScript ? '<span class="seq-dot has">●</span>' : '<span class="seq-dot no">○</span>';
+      const scriptText = getSeqScript(seq.id);
+      const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
+      
+      const icon = isReference ? '<span style="opacity:0">⬜</span>' : STATUS_ICONS[seqStatus];
+      const scriptDot = (hasScript && !isReference) ? '<span class="seq-dot has">●</span>' : '<span class="seq-dot no" style="opacity: 0.3;">○</span>';
       return `<div class="day-seq-item">${icon} <span class="day-seq-id">Sec ${seq.id}</span> ${scriptDot} <span class="day-seq-syn">${seq.synopsis}</span></div>`;
     }).join('');
     
