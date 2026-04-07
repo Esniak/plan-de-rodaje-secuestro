@@ -1,0 +1,6 @@
+venv/
+.git/
+*.docx
+*.py
+app_new.js
+__pycache__/

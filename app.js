@@ -1682,8 +1682,8 @@ function formatScriptContent(rawText) {
       let isDialogue = false;
       for (const char of characters) {
         if (line.startsWith(char + ' ') || line.startsWith(char + '\n') || line === char || line.match(new RegExp('^' + char + '\\s*\\('))) {
-          const charName = line.match(/^([A-ZÁÀÈÉÍÒÓÚÑÜ\s]+)/)?.[1]?.trim() || char;
-          const rest = line.substring(charName.length).trim();
+          const charName = char;
+          const rest = line.substring(char.length).trim();
           const parenthetical = rest.match(/^(\([^)]*\))\s*(.*)/);
           if (parenthetical) {
             html += `<div class="script-dialogue"><span class="script-char-name">${escapeHtml(charName)}</span> <span class="script-parenthetical">${escapeHtml(parenthetical[1])}</span></div>`;
