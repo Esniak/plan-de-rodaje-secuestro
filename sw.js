@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pdr-secuestro-v4';
+const CACHE_NAME = 'pdr-secuestro-v5';
 const ASSETS = [
   './',
   './index.html',
