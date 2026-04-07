@@ -684,6 +684,148 @@ body::before {
   white-space: pre-wrap;
 }
 
+/* ---------- FORMATTED SCRIPT STYLES ---------- */
+.script-formatted {
+  font-size: 0.82rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+
+.script-line-break {
+  height: 8px;
+}
+
+.script-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--accent-bright);
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  background: var(--accent-glow);
+  border-left: 3px solid var(--accent);
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+}
+
+.script-estado {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.script-estado.wip {
+  background: rgba(232, 169, 74, 0.15);
+  color: var(--status-wip);
+  border: 1px solid rgba(232, 169, 74, 0.3);
+}
+
+.script-estado.done {
+  background: rgba(74, 222, 128, 0.12);
+  color: var(--status-done);
+  border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+.script-section-header {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 10px 0 6px;
+  margin-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.script-section-header.screenplay {
+  font-size: 0.8rem;
+  color: var(--accent-bright);
+  padding: 12px 0 8px;
+  margin-top: 18px;
+  border-top: 2px solid var(--accent-dim);
+}
+
+.script-field {
+  padding: 4px 0;
+  line-height: 1.55;
+}
+
+.script-field-label {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.script-intensity {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--status-wip);
+  padding: 2px 10px;
+  margin: 2px 0;
+  background: rgba(232, 169, 74, 0.06);
+  border-radius: 4px;
+  border-left: 2px solid var(--status-wip);
+}
+
+.script-body-line {
+  padding: 2px 0;
+  color: var(--text-primary);
+  opacity: 0.9;
+}
+
+/* Screenplay section styles */
+.script-stage-direction {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 10px 12px;
+  margin: 12px 0 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.script-dialogue {
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.script-char-name {
+  font-weight: 800;
+  font-size: 0.78rem;
+  color: var(--accent-bright);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.script-parenthetical {
+  font-style: italic;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.script-dialogue-text {
+  padding: 2px 16px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.script-action {
+  padding: 3px 4px;
+  color: var(--text-secondary);
+  font-style: italic;
+  line-height: 1.55;
+}
+
 /* Notes textarea */
 .seq-notes-textarea {
   width: 100%;
