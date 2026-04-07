@@ -48,8 +48,17 @@
           </div>
         </div>
         <div class="stats-row">
-          <div class="stat-chip">
-            <span class="stat-number" id="stat-total-seqs">0</span>
+          <div class="stat-chip stat-chip-clickable" onclick="showParticipation()" role="button" tabindex="0">
+            <div class="stat-split">
+              <div class="stat-split-item">
+                <span class="seq-dot has">●</span>
+                <span class="stat-number" id="stat-part-seqs" style="font-size:1.1rem">0</span>
+              </div>
+              <div class="stat-split-item">
+                <span class="seq-dot no" style="opacity:0.3">○</span>
+                <span class="stat-number" id="stat-ref-seqs" style="font-size:1.1rem">0</span>
+              </div>
+            </div>
             <span class="stat-label">Secuencias</span>
           </div>
           <div class="stat-chip">
@@ -81,6 +90,19 @@
       </div>
       <div class="sequences-list" id="sequences-list">
         <!-- Sequences rendered by JS -->
+      </div>
+    </section>
+
+    <!-- VIEW 4: PARTICIPATION (ALL SEQUENCES SPLIT) -->
+    <section id="view-participation" class="view">
+      <div class="day-header-card" id="participation-header-card">
+        <div class="day-header-date">Participación</div>
+        <div class="day-header-meta">
+          <span class="day-header-location" id="participation-overview">0 secuencias con Omar y 0 de referencia</span>
+        </div>
+      </div>
+      <div class="sequences-list" id="participation-list">
+        <!-- Rendered by JS -->
       </div>
     </section>
 

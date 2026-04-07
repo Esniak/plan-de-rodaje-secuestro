@@ -2767,15 +2767,21 @@ function formatScriptContent(rawText) {
 function computeStats() {
   let totalSeqs = 0;
   let doneSeqs = 0;
+  let partSeqs = 0;
+  let refSeqs = 0;
   
   SCHEDULE.forEach(day => {
     day.sequences.forEach(seq => {
       totalSeqs++;
       if (getSeqStatus(seq.id) === STATUS.DONE) doneSeqs++;
+      const scriptText = getSeqScript(seq.id);
+      const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
+      if (isReference) refSeqs++;
+      else partSeqs++;
     });
   });
   
-  return { totalDays: SCHEDULE.length, totalSeqs, doneSeqs };
+  return { totalDays: SCHEDULE.length, totalSeqs, doneSeqs, partSeqs, refSeqs };
 }
 
 function getDayStats(dayIndex) {
@@ -2793,7 +2799,8 @@ function renderDays() {
   const stats = computeStats();
   
   // Update stats
-  document.getElementById('stat-total-seqs').textContent = stats.totalSeqs;
+  document.getElementById('stat-part-seqs').textContent = stats.partSeqs;
+  document.getElementById('stat-ref-seqs').textContent = stats.refSeqs;
   document.getElementById('stat-total-days').textContent = stats.totalDays;
   document.getElementById('stat-ready').textContent = stats.doneSeqs;
   document.getElementById('badge-count').textContent = stats.totalDays;
@@ -3081,6 +3088,88 @@ function showAllSequences() {
   document.getElementById('header-badge').classList.add('hidden');
   document.getElementById('header-title').textContent = 'SECUENCIAS';
   document.getElementById('header-subtitle').textContent = 'Todas · 8.OMAR';
+  
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ============ PARTICIPATION FILTER VIEW ============
+function showParticipation() {
+  document.getElementById('nav-calendar').classList.remove('active');
+  document.getElementById('nav-all-seqs').classList.remove('active');
+  
+  const allSeqs = [];
+  SCHEDULE.forEach((day, dayIdx) => {
+    day.sequences.forEach((seq, seqIdx) => {
+      allSeqs.push({ ...seq, dayIndex: dayIdx, seqIndex: seqIdx, date: day.date });
+    });
+  });
+
+  const partSeqs = [];
+  const refSeqs = [];
+  allSeqs.forEach(seq => {
+    const scriptText = getSeqScript(seq.id);
+    const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
+    if (isReference) refSeqs.push(seq);
+    else partSeqs.push(seq);
+  });
+  
+  partSeqs.sort((a,b) => parseFloat(a.id) - parseFloat(b.id));
+  refSeqs.sort((a,b) => parseFloat(a.id) - parseFloat(b.id));
+  
+  const container = document.getElementById('participation-list');
+  let html = '';
+  
+  html += `<div class="all-seq-header">Con Participación (${partSeqs.length})</div>`;
+  partSeqs.forEach(seq => {
+      const status = getSeqStatus(seq.id);
+      const hasScript = !!getSeqScript(seq.id);
+      html += `
+        <div class="seq-card ${hasScript ? 'seq-card-has-script' : ''}" onclick="openSequence(${seq.dayIndex}, ${seq.seqIndex})" role="button" tabindex="0">
+          <div class="seq-card-status">${STATUS_ICONS[status]}</div>
+          <div class="seq-card-info">
+            <div class="seq-card-number">Sec ${seq.id} <span style="color:var(--text-muted);font-size:0.65rem;font-weight:400">· ${formatDateShort(seq.date)}</span></div>
+            <div class="seq-card-set">${seq.set}</div>
+            <div class="seq-card-synopsis">${seq.synopsis}</div>
+          </div>
+          <div class="seq-card-arrow">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </div>
+        </div>
+      `;
+  });
+
+  html += `<div class="all-seq-header" style="margin-top: 20px;">Solo Referencia (${refSeqs.length})</div>`;
+  refSeqs.forEach(seq => {
+      const status = getSeqStatus(seq.id);
+      html += `
+        <div class="seq-card" onclick="openSequence(${seq.dayIndex}, ${seq.seqIndex})" role="button" tabindex="0">
+          <div class="seq-card-status">${STATUS_ICONS[status]}</div>
+          <div class="seq-card-info">
+            <div class="seq-card-number">Sec ${seq.id} <span style="color:var(--text-muted);font-size:0.65rem;font-weight:400">· ${formatDateShort(seq.date)}</span></div>
+            <div class="seq-card-set">${seq.set}</div>
+            <div class="seq-card-synopsis">${seq.synopsis}</div>
+          </div>
+          <div class="seq-card-arrow">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </div>
+        </div>
+      `;
+  });
+
+  navHistory = ['days'];
+  currentView = 'participation';
+  
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-participation').classList.add('active');
+  
+  document.getElementById('participation-overview').textContent = `${partSeqs.length} con participación y ${refSeqs.length} de referencia`;
+  
+  container.innerHTML = html;
+  
+  document.getElementById('btn-back').classList.remove('hidden');
+  document.getElementById('header-badge').classList.add('hidden');
+  document.getElementById('header-title').textContent = 'ANÁLISIS';
+  document.getElementById('header-subtitle').textContent = 'Reparto';
   
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
