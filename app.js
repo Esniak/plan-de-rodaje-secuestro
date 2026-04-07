@@ -817,45 +817,6 @@ Secuencia de guión
 EXT. DESIERTO MALI. CAUTIVERIO 2 - DÍA 2.42
 Llegan unos guerrilleros de Al Qaeda al campamento. A Mokthar no le gusta.
 Omar, en cambio, se activa. Va directo a abrazar a los recién llegados. Entre ellos está su tío.`,
-  "2.43": `OMAR — 2.43
-Estado: en trabajo
-Lo que necesito antes de grabar
-Qué ocurre objetivamente
-Mi tío le marca a Mokthar una línea más dura delante de todos. Mokthar responde y mide la situación. Yo escucho, entro en momentos concretos y sostengo la mirada. La conversación se va cargando y el peso se desplaza hacia esa línea.
-Función dramática de Omar
-Mi línea gana peso sin tener que empujarla yo solo.
-Motivación general en relación con la secuencia
-Aprovechar que ahora lo que se dice coincide con lo que yo pienso.
-Relación de fuerzas
-Mokthar sigue siendo el jefe, pero ya no tiene el control limpio. Mi tío le aprieta, y yo estoy dentro de esa presión. No mando, pero estoy mejor colocado que antes.
-Acción o intención jugable
-Sostener esa línea delante de Mokthar.
-No la dejo caer. Me coloco dentro de ella y la refuerzo con mi presencia y mis intervenciones.
-Riesgo a evitar como actor
-No hacerla plana. No quedarme pasivo. No celebrarlo. Aquí hay escucha, lectura y momentos de entrar.
-Otra información útil del mapa
-Llave maestra: ahora la línea no la empujo solo yo.
-Qué me da como actor: me permite estar activo sin tener que forzar cada momento.
-Fórmula general útil de la secuencia: esto ya va por aquí.
-Lo que voy a usar en acción / corte
-Gráfico de conflicto Arriba → arriba 4 → 5
-4 → entro ya reforzado por la llegada de mi tío
-5 → subo a medida que él habla, sostengo la mirada y la situación se inclina hacia esa línea
-¿Quién soy? = Característica
-Interior
-Ambicioso → reconozco que esta línea me favorece y no la suelto. Me coloco dentro de ella y la sostengo porque me acerca al lugar al que quiero estar.
-Exterior
-Firme → estoy presente, escucho, entro cuando toca y no me retiro de la línea.
-¿Qué quiero? = Objetivo
-Sostener esa línea delante de Mokthar → quiero que esa posición gane peso y no se diluya.
-¿Qué factores rodean el hecho? = Circunstancia
-Interna
-Esto conecta con lo que yo ya venía defendiendo. No tengo que forzar nada: lo que se está diciendo fuera coincide con lo que yo ya quería imponer, y por eso entro con seguridad, no con rabia.
-Externa
-Mi tío habla delante de todos, Mokthar responde, hay tensión en el grupo, y yo estoy dentro de ese intercambio sosteniendo la situación.
-¿Cómo lo hago? = Actitud
-Convicción
-Sostengo esa línea como algo que ya es verdad para mí. No la discuto ni la justifico: la mantengo con claridad y dejo que gane peso delante de todos.`,
   "2.44": `OMAR — 2.44
 Estado: en trabajo
 Lo que necesito antes de grabar
@@ -1348,7 +1309,1061 @@ SIDI (a Àlvar) Tu ajedrez.
 (al niño) Ahora volverás a casa con tu familia. Tu también.
 El chico, asiente, emocionado y les da unas capuchas.
 SIDI Poner en la cabeza.
-Àlvar y Jose se ponen las capuchas. Por fin el vehículo se marcha y abandona la zona de cautiverio.`
+Àlvar y Jose se ponen las capuchas. Por fin el vehículo se marcha y abandona la zona de cautiverio.`,
+  '2.43': `OMAR — 2.43
+Estado: en trabajo
+Lo que necesito antes de grabar
+Qué ocurre objetivamente
+Mi tío le marca a Mokthar una línea más dura delante de todos. Mokthar responde y mide la situación. Yo escucho, entro en momentos concretos y sostengo la mirada. La conversación se va cargando y el peso se desplaza hacia esa línea.
+Función dramática de Omar
+Mi línea gana peso sin tener que empujarla yo solo.
+Motivación general en relación con la secuencia
+Aprovechar que ahora lo que se dice coincide con lo que yo pienso.
+Relación de fuerzas
+Mokthar sigue siendo el jefe, pero ya no tiene el control limpio. Mi tío le aprieta, y yo estoy dentro de esa presión. No mando, pero estoy mejor colocado que antes.
+Acción o intención jugable
+Sostener esa línea delante de Mokthar.
+No la dejo caer. Me coloco dentro de ella y la refuerzo con mi presencia y mis intervenciones.
+Riesgo a evitar como actor
+No hacerla plana. No quedarme pasivo. No celebrarlo. Aquí hay escucha, lectura y momentos de entrar.
+Otra información útil del mapa
+Llave maestra: ahora la línea no la empujo solo yo.
+Qué me da como actor: me permite estar activo sin tener que forzar cada momento.
+Fórmula general útil de la secuencia: esto ya va por aquí.
+Lo que voy a usar en acción / corte
+Gráfico de conflicto Arriba → arriba 4 → 5
+4 → entro ya reforzado por la llegada de mi tío
+5 → subo a medida que él habla, sostengo la mirada y la situación se inclina hacia esa línea
+¿Quién soy? = Característica
+Interior
+Ambicioso → reconozco que esta línea me favorece y no la suelto. Me coloco dentro de ella y la sostengo porque me acerca al lugar al que quiero estar.
+Exterior
+Firme → estoy presente, escucho, entro cuando toca y no me retiro de la línea.
+¿Qué quiero? = Objetivo
+Sostener esa línea delante de Mokthar → quiero que esa posición gane peso y no se diluya.
+¿Qué factores rodean el hecho? = Circunstancia
+Interna
+Esto conecta con lo que yo ya venía defendiendo. No tengo que forzar nada: lo que se está diciendo fuera coincide con lo que yo ya quería imponer, y por eso entro con seguridad, no con rabia.
+Externa
+Mi tío habla delante de todos, Mokthar responde, hay tensión en el grupo, y yo estoy dentro de ese intercambio sosteniendo la situación.
+¿Cómo lo hago? = Actitud
+Convicción
+Sostengo esa línea como algo que ya es verdad para mí. No la discuto ni la justifico: la mantengo con claridad y dejo que gane peso delante de todos.
+
+Secuencia de guión
+INT. CAUTIVERIO 2. TIENDA DE MOKTHAR - TARDE 2.43
+En la tienda de Mokthar se tiene una reunión entre algunos representantes de Al Qaeda, el mismo Mokthar y Omar. Hablan tomando el te. Les pillamos a conversación empezada.
+MOKTHAR Vamos obtener más de lo esperado. Más dinero y la liberación de los presos de Burkina y de Mali. Será una victoria para Al Qaeda.
+LÍDER AL QAEDA El Mokthar que conocía yo, decía que hay victoria sólo con la destrucción completa del enemigo… pero nuestro enemigo no ha aceptado todas las condiciones.
+MOKTHAR España no va a poder liberar a los presos de Mauritania. Les habéis pedido algo imposible.
+La conversación se mantiene con tono muy calmado, pero se respira tensión. Al líder de Al Qaeda no le hace demasiada gracia la respuesta de Mokthar.
+LÍDER AL QAEDA Tal vez la cosa está en que no les has presionado lo suficiente. No te olvides que tú tienes los rehenes y recibirás el dinero porque nosotros te hemos elegido. Y el Mokthar que yo conocía ya le habría enviado la cabeza de un rehén… para que entiendan que no tienen elección.
+OMAR (interviene, mirando a Mokthar) Y si siguen sin entenderlo… recibirán la cabeza de los otros dos.
+LÍDER AL QAEDA (felicitando a Omar) Así se habla, sobrino.
+(a Mokthar, serio) Queremos la liberación de todos los presos. De todos.
+LÍDER AL QAEDA (CONT’D) (ref. a Omar) Y si el Mokthar que yo conocía no es el de ahora… quizá necesitemos a otro hermano al mando.
+Mokthar no replica, tomando su te. Omar, por el contrario, está feliz. Sale muy reforzado de esta reunión.`,
+  '3.55': `OMAR — 3.55
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - DÍA 3.55 3.55
+Volvemos a la partida. Àlvar mueve. Es su mirada toda la 
+determinación por tener la posibilidad de tener una revancha 
+moral sobre el secuestrador.  
+Omar se percata que su situación en el tablero es complicada. 
+Y percibe la mirada de sus hombres. No le gusta perder. 
+Se enfada con un mercenario que tiene demasiado cerca, 
+alejándole, en árabe. 
+OMAR
+Aléjate.
+Jose se percata de que Omar se está poniendo nervioso y, 
+disimuladamente, le susurra algo al oído de Àlvar. 
+JOSE
+Àlvar, déjale ganar.
+Omar mueve, dudando. Y parece que no lo ha hecho bien. Se lo 
+ha puesto en bandeja a Àlvar.
+Àlvar coge su pieza. 
+Jose le hace señas de que no con la cabeza.
+EXT. DESIERTO MALI. ZONA NEGOCIACIÓN III CHAFI-MOKTHAR (PAGO) 3.56 **
+Mientras tanto la máquina sigue contando más billetes. Chafi 
+se atreve con la pregunta.
+CHAFI
+¿Les vas a liberar?
+Mokthar no contesta. Chafi se pone nervioso.EPISODIO 3 30.
+KAABIL SEKALI
+CHAFI(CONT’D)
+Piensa en las consecuencias, 
+Mokthar. Sería una declaración de 
+guerra.
+Mokthar sigue sin contestar.
+MOKTAHR
+Ya estamos en guerra. Desde hace 
+siglos.
+EXT. CAUTIVERIO 2 - DÍA 3.57 3.57
+Àlvar, con la mirada del killer, mueve a su vez. La reacción 
+de los mercenarios parece testificar que es el fin del 
+partido para Omar. 
+SIDI
+Se ha acabado. 
+OMAR
+Calla, espera.
+Omar no se resigna a haber perdido. 
+OMAR(CONT’D)
+(en francés, le acusa de 
+timo)
+Esta pieza no estaba aquí.
+ÀLVAR
+Esta pieza siempre ha estado ahí.
+Omar empuña el mango del cuchillo. Los demás mercenarios se 
+ponen serios, sabedores de que la cosa puede acabar mal.
+JOSE
+Joder, Àlvar... dile que sí y 
+listo. Que gane la partida. 
+Pero Àlvar no cede.
+ÀLVAR
+He ganado y tú has perdido, 
+hermano.
+La tensión alrededor del tablero de ajedrez está cada vez más 
+alta.
+Omar saca el cuchillo. 
+OMAR
+Has hecho trampa. EPISODIO 3 31.
+KAABIL SEKALI
+Àlvar está a punto de replicar... cuando Sidi simula 
+resbalarse y vuelca el tablero. La piezas caen al suelo.   
+SIDI
+Lo siento... 
+A Omar, una vez más,`,
+  '2.39': `OMAR — 2.39
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - DIA 2.39 2.39
+Volvemos a Mali. 
+Àlvar dibuja en su libreta. Dibuja a los guerrilleros con el 
+sol detrás... Los dibujos de sus hijos están a su alrededor.
+Jose come un trozo de carne de gacela... Le gusta...OMAR (CONT’D)EPISODIO 2 32.
+KAABIL SEKALI
+A otra conversación entre Mokthar y Núria. Están hablando del 
+Corán evidentemente. A pesar de no compartir las mismas 
+ideas, es una conversación civil.
+MOKTHAR
+Esto no es cierto.
+NÚRIA
+Claro que lo es. La yihad, la lucha 
+contra los infieles es uno de los 
+pilares del Islam. Nos despreciáis. 
+Fomentáis el odio contra nosotros.
+MOKTHAR
+El profeta Muhammad, la paz sea con 
+él, dijo “no hay superioridad de un 
+árabe sobre un no árabe, ni de un 
+blanco sobre un negro, excepto en 
+la piedad y las buenas acciones”
+Núria sopesa la frase. Se atreve.
+NÚRIA
+“Piedad y buenas acciones”... ¿y 
+retenernos aquí, lejos de nuestra 
+familia es eso? ¿Una buena acción?
+Mokthar no muestra ningún gesto de enfado, parece disfrutar 
+de esta conversación. 
+MOKTHAR
+Luchamos porque hemos sido atacados 
+y oprimidos por Occidente. Nuestra 
+lucha es una lucha de defensa. No 
+es contra vosotros.   
+Pero las cosas podrían mejorar para 
+vosotros.
+NÚRIA
+Si nos dejaras volver a casa.
+MOKTHAR
+Eso depende de vuestro gobierno, no 
+de mí. Pero sí que podéis hacer 
+algo vosotros. 
+Núria le mira expectante.
+MOKTHAR(CONT’D)
+Que ésta sea vuestra casa. 
+(se explica)
+(MORE)EPISODIO 2 33.
+KAABIL SEKALI
+Todo buen musulmán tiene la 
+obligación de acoger y apoyar a 
+quien se convierta voluntariamente 
+al Islam... 
+Mokthar lo deja caer. Núria, sorprendida, lo procesa.
+NÚRIA
+¿Quieres que nos convirtamos?
+MOKTHAR
+Yo no quiero nada.
+(pausa)
+...sólo te digo que los creyentes 
+son hermanos... y a los hermanos y 
+las hermanas se les respeta. 
+(la mira, para que 
+entienda)
+Nunca volverá a ocurrir eso.
+Dicho esto Mokthar se levanta y la deja sola, meditando el 
+asunto. 
+INT. MONCLOA. DESPACHO VICEPRESIDENTA - DÍA 2.40 2.40
+IMÁGENES EN LA TELE: El ministro de Defensa de Mauritania,`,
+  '2.26-C': `OMAR — 2.26-C
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - TARDE 2.26 2.26
+La pick up con los rehenes llega a una zona del desierto. 
+Los guerrilleros bajan a Àlvar, Jose y Núria de manera algo 
+tosca. Los tres miran a su alrededor, intentando ubicarse, y 
+descubrimos el lugar con ellos...  
+...estamos en otra zona del desierto, donde parece que no hay **
+nada más que unas cuevas, pero para sorpresa de los rehenes, **
+los querrilleros sacan de ahí material para montar un nuevo **
+campamento. **
+EXT. HEREMAKONO / PASO FRONTERIZO BURKINA FASO/MALI - TARDE 2.27
+Un 4x4 algo más elegante que las pick-ups se los terroristas 
+se acerca al puesto de control de Burkina, presidido por los 
+militares del país. 
+Quién conduce es Chafi, con sus gafas de sol. Cuando se 
+acerca al control, enseña una placa y de inmediato el MILITAR 
+le saluda respetuoso y hace señas a sus compañeros que 
+levanten las barreras. 
+El 4x4 pasa.EPISODIO 2 24.
+KAABIL SEKALI
+Cuando llega al puesto de control de Mali, Chafi usa otra 
+estrategia. Mete en su pasaporte un billete de cien dólares. 
+Lo entrega al MILITAR DE MALI que revisa, guarda el dinero, 
+devuelve el documento y deja pasar al mediador. 
+Chafi entra en Mali.
+EXT. DESIERTO MALI. CARRETERA CHAFI A POBLADO - TARDE 2.28 2.28
+El 4x4 de Chafi se desliza por una carretera del país. 
+EXT. DESIERTO MALI. POBLADO DESIERTO - TARDE 2.29 2.29
+El 4x4 de Chafi, ahora lleno de polvo, llega a un poblado en 
+el desierto. El mismo poblado donde los terroristas 
+repostaron antes de llegar a la segunda zona de cautiverio. 
+Nada más bajar de su coche, Chafi saluda al jefe del poblado. 
+Cuando le estrecha la mano, se entrega disimuladamente un 
+billete. El otro lo recibe como si fuera lo más normal. 
+Tras los saludos de circunstancia entre los dos, en árabe, el 
+jefe del poblado conduce a Chafi hacia una tienda.
+Chafi entra solo...
+INT. DESIERTO MALI. POBLADO DESIERTO. CUARTUCHO - TARDE 2.30 2.30**
+...y aquí hay alguien que le espera: el mismo Mokthar, que 
+bebe te. Los dos hombres se abrazan de forma muy cariñosa, 
+denotando`,
+  '2.26-D': `OMAR — 2.26-D
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - TARDE 2.26 2.26
+La pick up con los rehenes llega a una zona del desierto. 
+Los guerrilleros bajan a Àlvar, Jose y Núria de manera algo 
+tosca. Los tres miran a su alrededor, intentando ubicarse, y 
+descubrimos el lugar con ellos...  
+...estamos en otra zona del desierto, donde parece que no hay **
+nada más que unas cuevas, pero para sorpresa de los rehenes, **
+los querrilleros sacan de ahí material para montar un nuevo **
+campamento. **
+EXT. HEREMAKONO / PASO FRONTERIZO BURKINA FASO/MALI - TARDE 2.27
+Un 4x4 algo más elegante que las pick-ups se los terroristas 
+se acerca al puesto de control de Burkina, presidido por los 
+militares del país. 
+Quién conduce es Chafi, con sus gafas de sol. Cuando se 
+acerca al control, enseña una placa y de inmediato el MILITAR 
+le saluda respetuoso y hace señas a sus compañeros que 
+levanten las barreras. 
+El 4x4 pasa.EPISODIO 2 24.
+KAABIL SEKALI
+Cuando llega al puesto de control de Mali, Chafi usa otra 
+estrategia. Mete en su pasaporte un billete de cien dólares. 
+Lo entrega al MILITAR DE MALI que revisa, guarda el dinero, 
+devuelve el documento y deja pasar al mediador. 
+Chafi entra en Mali.
+EXT. DESIERTO MALI. CARRETERA CHAFI A POBLADO - TARDE 2.28 2.28
+El 4x4 de Chafi se desliza por una carretera del país. 
+EXT. DESIERTO MALI. POBLADO DESIERTO - TARDE 2.29 2.29
+El 4x4 de Chafi, ahora lleno de polvo, llega a un poblado en 
+el desierto. El mismo poblado donde los terroristas 
+repostaron antes de llegar a la segunda zona de cautiverio. 
+Nada más bajar de su coche, Chafi saluda al jefe del poblado. 
+Cuando le estrecha la mano, se entrega disimuladamente un 
+billete. El otro lo recibe como si fuera lo más normal. 
+Tras los saludos de circunstancia entre los dos, en árabe, el 
+jefe del poblado conduce a Chafi hacia una tienda.
+Chafi entra solo...
+INT. DESIERTO MALI. POBLADO DESIERTO. CUARTUCHO - TARDE 2.30 2.30**
+...y aquí hay alguien que le espera: el mismo Mokthar, que 
+bebe te. Los dos hombres se abrazan de forma muy cariñosa, 
+denotando`,
+  '2.26-A': `OMAR — 2.26-A
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - TARDE 2.26 2.26
+La pick up con los rehenes llega a una zona del desierto. 
+Los guerrilleros bajan a Àlvar, Jose y Núria de manera algo 
+tosca. Los tres miran a su alrededor, intentando ubicarse, y 
+descubrimos el lugar con ellos...  
+...estamos en otra zona del desierto, donde parece que no hay **
+nada más que unas cuevas, pero para sorpresa de los rehenes, **
+los querrilleros sacan de ahí material para montar un nuevo **
+campamento. **
+EXT. HEREMAKONO / PASO FRONTERIZO BURKINA FASO/MALI - TARDE 2.27
+Un 4x4 algo más elegante que las pick-ups se los terroristas 
+se acerca al puesto de control de Burkina, presidido por los 
+militares del país. 
+Quién conduce es Chafi, con sus gafas de sol. Cuando se 
+acerca al control, enseña una placa y de inmediato el MILITAR 
+le saluda respetuoso y hace señas a sus compañeros que 
+levanten las barreras. 
+El 4x4 pasa.EPISODIO 2 24.
+KAABIL SEKALI
+Cuando llega al puesto de control de Mali, Chafi usa otra 
+estrategia. Mete en su pasaporte un billete de cien dólares. 
+Lo entrega al MILITAR DE MALI que revisa, guarda el dinero, 
+devuelve el documento y deja pasar al mediador. 
+Chafi entra en Mali.
+EXT. DESIERTO MALI. CARRETERA CHAFI A POBLADO - TARDE 2.28 2.28
+El 4x4 de Chafi se desliza por una carretera del país. 
+EXT. DESIERTO MALI. POBLADO DESIERTO - TARDE 2.29 2.29
+El 4x4 de Chafi, ahora lleno de polvo, llega a un poblado en 
+el desierto. El mismo poblado donde los terroristas 
+repostaron antes de llegar a la segunda zona de cautiverio. 
+Nada más bajar de su coche, Chafi saluda al jefe del poblado. 
+Cuando le estrecha la mano, se entrega disimuladamente un 
+billete. El otro lo recibe como si fuera lo más normal. 
+Tras los saludos de circunstancia entre los dos, en árabe, el 
+jefe del poblado conduce a Chafi hacia una tienda.
+Chafi entra solo...
+INT. DESIERTO MALI. POBLADO DESIERTO. CUARTUCHO - TARDE 2.30 2.30**
+...y aquí hay alguien que le espera: el mismo Mokthar, que 
+bebe te. Los dos hombres se abrazan de forma muy cariñosa, 
+denotando`,
+  '2.26-B': `OMAR — 2.26-B
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - TARDE 2.26 2.26
+La pick up con los rehenes llega a una zona del desierto. 
+Los guerrilleros bajan a Àlvar, Jose y Núria de manera algo 
+tosca. Los tres miran a su alrededor, intentando ubicarse, y 
+descubrimos el lugar con ellos...  
+...estamos en otra zona del desierto, donde parece que no hay **
+nada más que unas cuevas, pero para sorpresa de los rehenes, **
+los querrilleros sacan de ahí material para montar un nuevo **
+campamento. **
+EXT. HEREMAKONO / PASO FRONTERIZO BURKINA FASO/MALI - TARDE 2.27
+Un 4x4 algo más elegante que las pick-ups se los terroristas 
+se acerca al puesto de control de Burkina, presidido por los 
+militares del país. 
+Quién conduce es Chafi, con sus gafas de sol. Cuando se 
+acerca al control, enseña una placa y de inmediato el MILITAR 
+le saluda respetuoso y hace señas a sus compañeros que 
+levanten las barreras. 
+El 4x4 pasa.EPISODIO 2 24.
+KAABIL SEKALI
+Cuando llega al puesto de control de Mali, Chafi usa otra 
+estrategia. Mete en su pasaporte un billete de cien dólares. 
+Lo entrega al MILITAR DE MALI que revisa, guarda el dinero, 
+devuelve el documento y deja pasar al mediador. 
+Chafi entra en Mali.
+EXT. DESIERTO MALI. CARRETERA CHAFI A POBLADO - TARDE 2.28 2.28
+El 4x4 de Chafi se desliza por una carretera del país. 
+EXT. DESIERTO MALI. POBLADO DESIERTO - TARDE 2.29 2.29
+El 4x4 de Chafi, ahora lleno de polvo, llega a un poblado en 
+el desierto. El mismo poblado donde los terroristas 
+repostaron antes de llegar a la segunda zona de cautiverio. 
+Nada más bajar de su coche, Chafi saluda al jefe del poblado. 
+Cuando le estrecha la mano, se entrega disimuladamente un 
+billete. El otro lo recibe como si fuera lo más normal. 
+Tras los saludos de circunstancia entre los dos, en árabe, el 
+jefe del poblado conduce a Chafi hacia una tienda.
+Chafi entra solo...
+INT. DESIERTO MALI. POBLADO DESIERTO. CUARTUCHO - TARDE 2.30 2.30**
+...y aquí hay alguien que le espera: el mismo Mokthar, que 
+bebe te. Los dos hombres se abrazan de forma muy cariñosa, 
+denotando`,
+  '2.33-A': `OMAR — 2.33-A
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - DÍA 2.33 2.33
+Más tarde, seguimos a Àlvar que pasea solo, cojeando, por la 
+nueva zona de cautiverio, donde se ha retomado cierta 
+normalidad. EPISODIO 2 28.
+KAABIL SEKALI
+Àlvar, desde la distancia observa inexpresivo a Jose, que se **
+muestra agradecido al Amir. **
+Àlvar sigue su ruta. Es un pez fuera de agua ahí... **
+...llega a una zona con PIEDRAS en el suelo. Juguetea con 
+una, con el pie. Finalmente la coge. La estudia... 
+...al rato la guarda en su bolsillo y coge otra. Y otra. No 
+cualquier piedra le vale... sino algunas en concretos. 
+CORTE INTERNO A:
+Àlvar está sentado en algún lugar apartado del campamento. 
+Trabaja sobre una piedra grande y plana... rayándola. 
+Lo que está haciendo es marcar un tablero sobre la misma. Al 
+rato coloca las piedras que ha encontrado... algunas claras y 
+otras más oscuras...   
+...lo que ha hecho Àlvar es construirse un tablero de ajedrez 
+muy rudimentario.
+Àlvar empieza a jugar una partido contra él mismo. Por 
+primera vez desde el inicio del cautiverio le vemos 
+interesado en algo. 
+Al rato, una sombra se proyecta sobre el tablero... cuando 
+Àlvar levanta la mirada se encuentra a Sidi que le mira con 
+interés. 
+Àlvar, en un principio, le ignora y sigue jugando. Pero el 
+niño no se va... y, al rato, Àlvar rompe el silencio.
+ÀLVAR
+¿Sabes jugar al ajedrez?
+El niño llega. 
+ÀLVAR(CONT’D)
+¿Quieres aprender?
+SIDI 
+¿Tú me enseñas?
+Àlvar le hace un gesto para que se siente con él. El niño 
+accede con gusto. 
+Àlvar recoloca las piezas para empezar de nuevo. Pero, antes 
+de empezar la clase...
+El niño le indica la pierna.EPISODIO 2 29.
+KAABIL SEKALI
+SIDI(CONT’D)
+Lo siento mucho. Tu pierna.
+Nos alejamos, dejando a Àlvar y Sidi con su clase de ajedrez.
+EXT. CAUTIVERIO 2 - NOCHE 2.34 2.34
+Alrededor del fuego, los captores hablan entre ellos. No hace 
+falta que entendamos las conversaciones. 
+Al rato, Omar se fija en Núria que, tras cenar con Jose y 
+Àlvar, se separa de ellos y se dirige sola hacia su tienda, 
+que sigue apartada.   **
+Y se f`,
+  '2.33-B': `OMAR — 2.33-B
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 2 - DÍA 2.33 2.33
+Más tarde, seguimos a Àlvar que pasea solo, cojeando, por la 
+nueva zona de cautiverio, donde se ha retomado cierta 
+normalidad. EPISODIO 2 28.
+KAABIL SEKALI
+Àlvar, desde la distancia observa inexpresivo a Jose, que se **
+muestra agradecido al Amir. **
+Àlvar sigue su ruta. Es un pez fuera de agua ahí... **
+...llega a una zona con PIEDRAS en el suelo. Juguetea con 
+una, con el pie. Finalmente la coge. La estudia... 
+...al rato la guarda en su bolsillo y coge otra. Y otra. No 
+cualquier piedra le vale... sino algunas en concretos. 
+CORTE INTERNO A:
+Àlvar está sentado en algún lugar apartado del campamento. 
+Trabaja sobre una piedra grande y plana... rayándola. 
+Lo que está haciendo es marcar un tablero sobre la misma. Al 
+rato coloca las piedras que ha encontrado... algunas claras y 
+otras más oscuras...   
+...lo que ha hecho Àlvar es construirse un tablero de ajedrez 
+muy rudimentario.
+Àlvar empieza a jugar una partido contra él mismo. Por 
+primera vez desde el inicio del cautiverio le vemos 
+interesado en algo. 
+Al rato, una sombra se proyecta sobre el tablero... cuando 
+Àlvar levanta la mirada se encuentra a Sidi que le mira con 
+interés. 
+Àlvar, en un principio, le ignora y sigue jugando. Pero el 
+niño no se va... y, al rato, Àlvar rompe el silencio.
+ÀLVAR
+¿Sabes jugar al ajedrez?
+El niño llega. 
+ÀLVAR(CONT’D)
+¿Quieres aprender?
+SIDI 
+¿Tú me enseñas?
+Àlvar le hace un gesto para que se siente con él. El niño 
+accede con gusto. 
+Àlvar recoloca las piezas para empezar de nuevo. Pero, antes 
+de empezar la clase...
+El niño le indica la pierna.EPISODIO 2 29.
+KAABIL SEKALI
+SIDI(CONT’D)
+Lo siento mucho. Tu pierna.
+Nos alejamos, dejando a Àlvar y Sidi con su clase de ajedrez.
+EXT. CAUTIVERIO 2 - NOCHE 2.34 2.34
+Alrededor del fuego, los captores hablan entre ellos. No hace 
+falta que entendamos las conversaciones. 
+Al rato, Omar se fija en Núria que, tras cenar con Jose y 
+Àlvar, se separa de ellos y se dirige sola hacia su tienda, 
+que sigue apartada.   **
+Y se f`,
+  '2.19-PR': `OMAR — 2.19-PR
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+INT. MONCLOA. CENTRO DE MANDO  - DÍA 2.19 2.19**
+En el PC encriptado, el general muestra las imágenes de la **
+grabación del dron. **
+Quién está mirando las imágenes es La vicepresidenta, junto 
+con José María y el general. **
+GENERAL (O.S.)
+Han usado mantas para cubrir a los 
+rehenes pero también a los 
+terroristas... por lo que no 
+sabemos en qué coche han metido a 
+los tres...
+Se ve como en la zona del cautiverio, todos se meten en 
+cuatro pick ups, cubiertos por una manta... 
+...y al rato las pick ups se marchan cada una en una 
+dirección distinta.  
+GENERAL (O.S.)(CONT’D)
+...los vehículos se han marchado 
+cada uno en una dirección 
+distinta... con un solo dron hemos 
+podido seguir solo a uno... y no 
+hemos tenido suerte... era solo un 
+señuelo. Les hemos perdido. 
+EXT./INT. DESIERTO MALI. POBLADO DESIERTO/PICK UP - DÍA 2.20 2.20**
+Una pick up Toyota está parada en una zona rocosa. En la 
+parte trasera de la furgo van los tres rehenes, con una 
+capucha sobre la cabeza y vigilados por milicianos. Otros 
+miran al cielo, comprobando si el dron los ha seguido, entre 
+ellos Omar, desde el volante. Otra pick up de guerrilleros 
+les alcanza. **
+Desde un resquicio de la capucha, Jose logra ver algo de lo **
+que ocurre fuera... **
+...ve como uno de los Guerrilleros intercambia mercancías con **
+un HOMBRE LOCAL, hay simpatía. **
+Al rato, se reanuda el viaje con las dos pick ups. **
+INT. APARTAMENTO ÀLVAR - NOCHE 2.21 2.21**
+La vicepresidenta está en el salón de los Vila, junto al **
+padre de Àlvar y de Laura. Hablan sentados en el sofá de 
+casa. El padre de Àlvar parece contrariado.  EPISODIO 2 18.
+KAABIL SEKALI
+VICEPRESIDENTA
+(acaba de explicar)
+...su traslado no es totalmente 
+negativo. Significa que quieren 
+seguir con el cautiverio... 
+(pausa)
+Inteligencia cree que ahora habrá 
+un tiempo de silencio, como 
+castigo... pero que 
+retomarán las negociaciones... 
+subiendo el precio. 
+LAURA
+O sea que les habéis perdido...
+ÀLVAR PADRE
+Laura, saben el que fan. ¿Lo 
+sabéis, no? Les teníais 
+localizados. Los podéi`,
+  '1.47-B': `OMAR — 1.47-B
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+INT/EXT. CAUTIVERIO 1 / ZULO DE NÚRIA - DÍA 1.47 1.47
+Un guerrillero levanta el techo del zulo de Núria. La mujer 
+le mira algo cegada por el sol. 
+El guerrillero le hace señas de que salga. 
+Cuando Núria obedece... ve que están sacando de su zulo 
+también a Jose y a Àlvar, que, con la pierna vendada, tiene 
+que ser ayudado para caminar.
+INT/EXT. CAUTIVERIO 1. TIENDA DE MOKTHAR - DÍA 1.48 1.48**
+Núria, escoltada por un guerrillero, entra en la tienda 
+Mokthar, donde acaban de entrar también Jose y Àlvar...
+...los tres se emocionan al verse cara a cara después de 
+tiempo. 
+ÀLVAR
+¡Núria!
+NÚRIA
+¡Hey!
+Se abrazan. Mokthar les deja un momento, después habla. 
+MOKTHAR
+Esto es para vosotros. 
+Libreta. Lápices. Pastillas. Cosas 
+de mujer.
+Mokthar les enseñas las cosas que tiene en la mesa... los 
+medicamentos que Ramón ha traído para ellos. Pero parece que 
+ha sido cosa de Mokthar. Tamnbién hay una muleta para Álvar. **
+Jose se emociona al ver su medicina. Y hay un bloc de notas y 
+lápices. Jose coge sus pastillas mientras Núria coge lo que 
+es evidentemente para ella. EPISODIO 1 42.
+KAABIL SEKALI
+JOSE
+(ref. a sus pastillas)
+Gracias.
+Sin esperar, Jose se traga una pastilla, sin agua, como ya le 
+vimos hacer. Núria lo mira con cariño. **
+Mokthar, por primera vez con ellos, se muestra algo animado. 
+Parece contento por la voluntad del gobierno español de 
+negociar. 
+MOKTHAR
+Vuestro gobierno dice que quiere 
+dialogar... ¿Puedo confiar en 
+vuestro gobierno?
+Mokthar hace un gesto a los suyos para que se lleven a Jose y 
+Àlvar. Àlvar necesita apoyarse en Jose para desplazarse.
+Núria está a punto de seguirles, pero Mokthar le hace un 
+gesto para quedarse a hablar a solas un momento con ella. 
+MOKTHAR(CONT’D)
+Mujer. Quédate.
+La cosa inquieta a Núria. Pero Mokthar le devuelve el 
+crucifijo. Núria no se lo esperaba... 
+MOKTHAR(CONT’D)
+Y esto también es para ti.
+Le extiende un libro, que no estaba en la bolsa de plástico.
+MOKTHAR(CONT’D)
+Es el Corán. No somos muy 
+distintos. 
+NÚRIA
+Estudié teología. 
+MOKTHAR
+Bien. Yo también. Pu`,
+  '1.50': `OMAR — 1.50
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. ZONA CAUTIVERIO 1 - ATARDECER 1.50 1.50**
+Sidi reparte arroz entre los secuestrados. Los rehenes, **
+sorprendidos y aliviados, reciben la comida. **
+SIDI
+Arroz. Con camello.
+JOSE
+Nunca había visto un cielo así. Al 
+menos esto lo tenemos.
+Joder, sigo viendo cosas... ¿qué es **
+eso?. **
+ÀLVAR
+Será un pájaro. **
+Àlvar y Núria levantan la vista.
+NÚRIA
+Eso no es un pájaro. **
+Los tres miran arriba... alto, en el cielo, hay un punto negro 
+inmóvil.
+También Sidi se percata. Corre hacia la tienda de Mokthar. 
+SIDI
+Dron, dron. **
+Entre los guerrilleros se siembra el caos. Mokthar sale de su **
+tienda para comprobar. No parece expresar ninguna emoción. Ya lo 
+esperaba. **
+INT. CENTRO DE MANDO - ATARDECER 1.51 1.51**
+En la imagen central de una GRAN PANTALLA de la sala de 
+operaciones vemos las IMÁGENES A VISTA PÁJARO DEL DRON 
+sobre la zona de reclusión en el desierto de Mali. 
+En otras pantallas algunas IMÁGENES ESTÁTICAS o imágenes en 
+vivo de zonas concretas de Mauritania. En un monitor, con 
+una imagen poco nítida y lejana, se ve a tres personas a 
+vista de dron. EPISODIO 1 44.
+KAABIL SEKALI
+GENERAL
+El del medio cojea. 
+VICEPRESIDENTA
+Es Àlvar.
+La vicepresidenta tiene los ojos emocionados. Se mira con 
+Santiago y asienten. **
+Observa las imágenes del dron rodeada de todo el gabinete de **
+crisis, que la mira expectante. Todos parecen saber lo que **
+hay que hacer. Observa las imágenes de Mokthar en la **
+pantalla. Mokthar, desde el campamento, parece mirarla a su **
+vez. **
+FIN DEL CAPÍTULO 1 **EPISODIO 1 45.
+KAABIL SEKALI`,
+  '1.50-PR': `OMAR — 1.50-PR
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. ZONA CAUTIVERIO 1 - ATARDECER 1.50 1.50**
+Sidi reparte arroz entre los secuestrados. Los rehenes, **
+sorprendidos y aliviados, reciben la comida. **
+SIDI
+Arroz. Con camello.
+JOSE
+Nunca había visto un cielo así. Al 
+menos esto lo tenemos.
+Joder, sigo viendo cosas... ¿qué es **
+eso?. **
+ÀLVAR
+Será un pájaro. **
+Àlvar y Núria levantan la vista.
+NÚRIA
+Eso no es un pájaro. **
+Los tres miran arriba... alto, en el cielo, hay un punto negro 
+inmóvil.
+También Sidi se percata. Corre hacia la tienda de Mokthar. 
+SIDI
+Dron, dron. **
+Entre los guerrilleros se siembra el caos. Mokthar sale de su **
+tienda para comprobar. No parece expresar ninguna emoción. Ya lo 
+esperaba. **
+INT. CENTRO DE MANDO - ATARDECER 1.51 1.51**
+En la imagen central de una GRAN PANTALLA de la sala de 
+operaciones vemos las IMÁGENES A VISTA PÁJARO DEL DRON 
+sobre la zona de reclusión en el desierto de Mali. 
+En otras pantallas algunas IMÁGENES ESTÁTICAS o imágenes en 
+vivo de zonas concretas de Mauritania. En un monitor, con 
+una imagen poco nítida y lejana, se ve a tres personas a 
+vista de dron. EPISODIO 1 44.
+KAABIL SEKALI
+GENERAL
+El del medio cojea. 
+VICEPRESIDENTA
+Es Àlvar.
+La vicepresidenta tiene los ojos emocionados. Se mira con 
+Santiago y asienten. **
+Observa las imágenes del dron rodeada de todo el gabinete de **
+crisis, que la mira expectante. Todos parecen saber lo que **
+hay que hacer. Observa las imágenes de Mokthar en la **
+pantalla. Mokthar, desde el campamento, parece mirarla a su **
+vez. **
+FIN DEL CAPÍTULO 1 **EPISODIO 1 45.
+KAABIL SEKALI`,
+  '1.51-PR': `OMAR — 1.51-PR
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+INT. CENTRO DE MANDO - ATARDECER 1.51 1.51**
+En la imagen central de una GRAN PANTALLA de la sala de 
+operaciones vemos las IMÁGENES A VISTA PÁJARO DEL DRON 
+sobre la zona de reclusión en el desierto de Mali. 
+En otras pantallas algunas IMÁGENES ESTÁTICAS o imágenes en 
+vivo de zonas concretas de Mauritania. En un monitor, con 
+una imagen poco nítida y lejana, se ve a tres personas a 
+vista de dron. EPISODIO 1 44.
+KAABIL SEKALI
+GENERAL
+El del medio cojea. 
+VICEPRESIDENTA
+Es Àlvar.
+La vicepresidenta tiene los ojos emocionados. Se mira con 
+Santiago y asienten. **
+Observa las imágenes del dron rodeada de todo el gabinete de **
+crisis, que la mira expectante. Todos parecen saber lo que **
+hay que hacer. Observa las imágenes de Mokthar en la **
+pantalla. Mokthar, desde el campamento, parece mirarla a su **
+vez. **
+FIN DEL CAPÍTULO 1 **EPISODIO 1 45.
+KAABIL SEKALI`,
+  '1.49': `OMAR — 1.49
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. CAUTIVERIO 1. ZONA PRUEBA DE VIDA - DÍA  1.49 1.49**
+Los guerrilleros llevan a los tres a una zona apartada. Han 
+preparado un “set” de FOTOGRAFÍA, con la bandera de Al Qaeda. 
+Los españoles se petrifican, como si les fueran a decapitar.
+CALCAMOS LA ESCENOGRAFÍA DE LA FOTO REAL. Detalle por 
+detalle.
+Hay cierta incomodidad por parte de ellos por como relacionarse 
+con Núria. Con una mujer. Nadie la toca ni se acerca a ella, 
+mientras con Jose y Àlvar la actitud es distinta. **EPISODIO 1 43.
+KAABIL SEKALI
+AMIR **
+(árabe)
+No tocar a la mujer. 
+En la duna, Guerrillero 2 prepara la foto con la cámara. Amir **
+les situa en posición. 
+Otros hombres armados y con capuchas se ponen a su alrededor; 
+con Albert y Jose y Núria en el suelo.  
+Y click. Foto.
+EXT. ZONA CAUTIVERIO 1 - ATARDECER 1.50 1.50**
+Sidi reparte arroz entre los secuestrados. Los rehenes, **
+sorprendidos y aliviados, reciben la comida. **
+SIDI
+Arroz. Con camello.
+JOSE
+Nunca había visto un cielo así. Al 
+menos esto lo tenemos.
+Joder, sigo viendo cosas... ¿qué es **
+eso?. **
+ÀLVAR
+Será un pájaro. **
+Àlvar y Núria levantan la vista.
+NÚRIA
+Eso no es un pájaro. **
+Los tres miran arriba... alto, en el cielo, hay un punto negro 
+inmóvil.
+También Sidi se percata. Corre hacia la tienda de Mokthar. 
+SIDI
+Dron, dron. **
+Entre los guerrilleros se siembra el caos. Mokthar sale de su **
+tienda para comprobar. No parece expresar ninguna emoción. Ya lo 
+esperaba. **
+INT. CENTRO DE MANDO - ATARDECER 1.51 1.51**
+En la imagen central de una GRAN PANTALLA de la sala de 
+operaciones vemos las IMÁGENES A VISTA PÁJARO DEL DRON 
+sobre la zona de reclusión en el desierto de Mali. 
+En otras pantallas algunas IMÁGENES ESTÁTICAS o imágenes en 
+vivo de zonas concretas de Mauritania. En un monitor, con 
+una imagen poco nítida y lejana, se ve a tres personas a 
+vista de dron. EPISODIO 1 44.
+KAABIL SEKALI
+GENERAL
+El del medio cojea. 
+VICEPRESIDENTA
+Es Àlvar.
+La vicepresidenta tiene los ojos emocionados. Se mira con 
+Santiago y asienten. **
+Observa las imágenes del dron rodeada de`,
+  '3.20': `OMAR — 3.20
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+Versión 03.03.2026_REVISADO
+(Green light)
+LASTOR 
+MOVISTAR +
+KAABIL SEKALI
+EXT. DESIERTO MALI. ZONA CAZA - AMANECER 3.1 3.1**
+Una imagen bucólica: El amanecer en el desierto. 
+De repente, aparece Jose con su camiseta como turbante, medio 
+desnudo, con una Ak47 en las manos. Parece Martin Sheen en 
+Apocalypse Now.
+Jose apunta y dispara. No sabemos a qué. Pero sigue, y sigue, 
+cayéndose, levantándose... lleno de arena.
+Desde detrás de las dunas, salen algunos MERCENARIOS con sus 
+AK 47. Más disparos. ¡BANG! ¡BANG! 
+Se detiene. Apunta... Y, de repente, a través de la mirilla, 
+a lo lejos, ve VEHÍCULOS MILITARES del ejercito maliense 
+avanzando.
+Jose, incrédulo, desconcertado, mira a su alrededor. No hay 
+rastro de sus captores. Es su ocasión para dar la alarma...
+Nervioso, se bloquea.
+...y cuando sí parece estar a punto de revelar su 
+presencia... detrás de él aparece, Amir. **
+Con su AK47 en mano, le hace un gesto como diciendo que se 
+calle. 
+EXT. CAUTIVERIO 2 - DÍA 3.2 3.2
+Más tarde, en el campamento, la PICK UP con Jose y algunos 
+guerrilleros, entre ellos Amir, regresa al campamento. Han **
+cazado a un animal. 
+CORTE INTERNO A:
+Al rato, los mercenarios y Jose cocinan como si fuera un 
+pollo al ast. 
+Además, bajo la arena caliente, como un horno, cuecen pan.  
+Actúan compenetrados, charlando, como si fueran compañeros… 
+...a poca distancia y ajeno a tanto compadreo, Àlvar juega al 
+ajedrez con Sidi, a la sombra. 
+Jose le mira, incómodo, sin atreverse a contarle lo que ha 
+pasado. Pero es evidente que Jose sigue dándole vueltas a la 
+cosa.
+CORTE INTERNO A:
+KAABIL SEKALI
+Al rato, Jose come la carne con las manos, juntos con los 
+mercenarios. 
+Amir le da un TRANSISTOR y el hombre la sintoniza en Radio **
+Nacional del España en su versión internacional. Escucha la 
+crónica del partido de la nacional contra Chile, en el 
+mundial de Suráfrica.  
+Por su parte, Àlvar come apartado, lejos de los demás. Jose 
+le interpela. 
+JOSE
+¿Te gusta? La he cazado yo mismo. 
+Es gacela.
+Àlvar asient`,
+  '3.24': `OMAR — 3.24
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. DESIERTO MALI. POBLADO DESIERTO - DÍA 3.24 3.24**
+Vemos el poblado a vista de pájaro, desde el dron. 
+Vemos como unos hombres salen de la tienda y suben a sus 
+respectivos vehículos. 
+JAVIER (V.O.)
+(por walkie)
+Ha venido con dos escoltas. Se 
+marchan. 
+El 4x4 de Chafi va hacia una dirección...
+...mientras que la Pick Up de Mokthar va hacia otra. EPISODIO 3 12.
+KAABIL SEKALI
+JAVIER (V.O.)
+Dirección Noroeste.
+(pausa)
+Vamos a cortarle el paso. ¡Vamos! 
+¡Vamos! 
+El dron con forma de pájaro, totalmente mimetizado, sigue a 
+la pick up desde la altura.
+INT. PISO ANTENA. SALA - DÍA 3.25 3.25
+Ramón sigue atentamente la persecución desde las pantallas. 
+EXT. DESIERTO MALI. CARRETERA PERSECUCIÓN OMAR - DÍA  3.26 3.26
+El camión y el vehículo que va detrás corren a toda velocidad 
+por el camino. 
+A pesar de su aspecto destartalado, resultan vehículos 
+perfectamente preparados para el desierto. 
+INT. CAMIÓN CAMUFLADO. CAJA - DÍA 3.27 3.27
+Javier sigue las imágenes del dron en la pantalla del hombre 
+que mueve el dispositivo. 
+JAVIER 
+(por walkie)
+Le vemos. Estamos a doscientos 
+metros. 
+INT. MONCLOA. CENTRO DE MANDO - DÍA 3.28 3.28**
+Ahora el audio de Javier resuena en la sala. 
+JAVIER (V.O.)
+(por el walkie)
+Le tenemos. Listos para intervenir. 
+La vicepresidenta, por los nervios, se enciende un cigarrillo 
+en la sala y le da profundas caladas. José María la mira pero **
+no se atreve a decirle nada...
+...y ella, con su mirada, deja claro que no es momento para 
+decirle que no se puede fumar ahí. 
+En la pantalla, desde el dron vemos como el camión y el 
+vehículo se acercan a la pick up. EPISODIO 3 13.
+KAABIL SEKALI
+EXT./INT. DESIERTO DE MALI. CARRETERA PERSECUCIÓN OMAR / PICK 3.29
+UP - DÍA 
+La pick up se desplaza sin demasiada prisa por el camino. 
+Amir, quién conduce, ve en el retrovisor una nube de polvo **
+detrás de ellos.
+Le mira perplejo. 
+AMIR **
+(en francés, al copiloto)
+Es sólo un camión. 
+Cierta tensión a bordo. 
+INT. CAMIÓN CAMUFLADO. CAJA - DÍA 3.30 3.30
+Los hombres preparan sus armas y cubren sus rostros. L`,
+  '3.80': `OMAR — 3.80
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. DESIERTO MALI. ZONA MUERTE SIDI - DÍA 3.80 3.80**
+Sidi, feliz, mira al cielo. Lleva consigo sus cosas y el 
+ajedrez. 
+El y los mercenarios, están descansando en el pozo del 
+capítulo 1. Las pick up están cargadas.
+El vehículo de Mokthar es el primero en marcharse. Mokhtar se 
+despide de los suyos con un gesto de la mano...EPISODIO 3 40.
+KAABIL SEKALI
+...Omar y los demás mercenarios responden al saludo con una 
+ráfaga al aire RATATATAT...
+...acto seguido se preparan para marcharse también ellos. 
+Sidi, que corre hacia la pick-up donde aguarda Omar...
+...pero, antes de alcanzarla, Omar sale a su encuentro... 
+Y, acto seguido... ¡BANG! Le dispara. 
+El niño cae abatido. 
+Las pick-ups se marchan dejando en el suelo al cadáver de 
+Sidi.
+INT. AEROPUERTO BARCELONA. PASILLO - DÍA 3.81 3.81
+Alvar y Jose, escoltados, avanzan por un pasillo rodeados de 
+otros viajeros del vuelo. Ramón va detrás de ellos. **
+Los escoltas llevan a Alvar y Jose hacia unas escaleras 
+mecánicas. Ramón y el resto de viajeros pasan de largo. Ramón **
+ve a su mujer esperándole. Se funden en un abrazo. **
+INT. AEROPUERTO DE BARCELONA. SALA RESERVADA - DÍA 3.82 3.82
+Delante de las puertas de salida se ha congregado mucha 
+gente. Es una zona que ha sido reservada para las AUTORIDADES 
+y los FAMILIARES. Aquí están los miembros de la familia Vila, 
+con Laura y los niños, los padres, la familia de Jose... Hay 
+pancartas de bienvenidas para los dos rehenes. Reconocemos a 
+algunos compañeros de la ONG. Mucha expectación.  
+La vicepresidenta hace un amago de ir a por Laura, pero, al 
+verla tan nerviosa, con sus hijos, desiste.  
+Por fin las puertas se abren y... 
+...aparecen Àlvar y Jose, acompañados por un séquito de 
+representantes del gobierno y del ejercito.  
+Es momento para la emoción más desenfrenada. Aplausos y 
+gritos. Se rompen los protocolos, las familias abrazan a sus 
+seres queridos...
+Àlvar, por fin, se reencuentra con sus niños y Laura. Un 
+abrazo tremendamente emotivo. 
+Jose hace lo mismo con su mujer y sus hijos. Llorera y 
+emoción`,
+  '3.33-PR': `OMAR — 3.33-PR
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+INT. MONCLOA . CENTRO DE MANDO- DÍA 3.33 3.33**
+Los nervios en la sala de operaciones están al máximo. 
+Algunos gestos de celebración: la operación ha ido bien.EPISODIO 3 14.
+KAABIL SEKALI
+SANTIAGO
+Le tenemos.
+Todos están pendientes de las imágenes aéreas que no permiten 
+reconocer a nadie. 
+VICEPRESIDENTA
+(mirando las imágenes)
+¿Cuál de ellos es?
+EXT. DESIERTO MALI. ZONA ASALTO - DÍA 3.34 3.34
+Javier se abre paso entre sus colaboradores que han hecho 
+arrodillar a los tres ocupantes de la pick up de espalda 
+hacia él.
+Les alcanza y rodea. Descubrimos el rostro de los detenidos 
+junto con el mismo Javier... y nos llevamos una sorpresa: 
+...quien está arrodillado al lado de Amir y al compañero, no **
+es Mokthar, sino Omar. El mercenario le mira con odio.
+OMAR
+(en francés)
+Os vais a arrepentir por esto.
+A pesar de que podamos ver solo sus ojos a través del 
+tagelmust, percibimos la decepción en el rostro de Javier. El 
+agente del CNI piensa rápido. Finalmente:
+JAVIER
+(en francés, para esconder 
+su nacionalidad)
+Metedle en el camión, rápido. 
+Salgamos del desierto antes de que 
+llegue todo el mundo.   
+INT. MONCLOA. CENTRO DE MANDO - DÍA 3.35 3.35**
+JAVIER (V.O.)
+No es Mokthar. 
+Se hace silencio. Una ducha fría.   
+JAVIER (V.O.)
+Está su escolta pero él no ha 
+venido. 
+Al rato, la Vicepresidenta rompe el silencio.EPISODIO 3 15.
+KAABIL SEKALI
+VICEPRESIDENTA 
+(molesta, sin preámbulos)
+Ha sido un desastre. Otro más. 
+(desesperada)
+Y esto va a pasar factura a los 
+rehenes. 
+Las miradas convergen sobre Santiago. Por primera vez, el 
+jefe del CNI no parece contar con el apoyo de la 
+vicepresidenta. 
+INT. MONCLOA. CENTRO DE MANDO - DÍA 3.36 3.36**
+Santiago con la vicepresidenta, Fernando, José María y sus **
+respectivos asistentes.  
+En la pantalla de una tele se ve el rostro de Omar. Santiago 
+se ha preparado el discurso. Habla con cierta calma, bajo la 
+mirada molesta de La vicepresidenta.
+SANTIAGO
+Por razones que desconocemos, esta 
+vez a la reunión con Chafi ha 
+acudido su segundo, Omar Sarahui...
+VICEPRESID`,
+  '3.02-A': `OMAR — 3.02-A
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+EXT. DESIERTO MALI. CAUTIVERIO 2 - DÍA 3.2
+La pick up de los guerrilleros y JOSE llegan con caza.`,
+  '3.02-B': `OMAR — 3.02-B
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+JOSE y otros preparan la caza para cocinarla. ÀLVAR y SIDI juegan al ajedrez a la sombra.`,
+  '3.02-C': `OMAR — 3.02-C
+Estado: pendiente
+
+[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
+
+JOSE come apartado con los guerrilleros y sintoniza el TRANSISTOR. Àlvar come lejos, apartado.`
 };
 /* ================================================
    PLAN DE RODAJE — SECUESTRO (8.OMAR)
