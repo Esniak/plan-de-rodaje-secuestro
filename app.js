@@ -2236,8 +2236,6 @@ Los hombres preparan sus armas y cubren sus rostros. L`,
   '3.80': `OMAR — 3.80
 Estado: pendiente
 
-[SECUENCIA DE REFERENCIA - NO HAY TRABAJO DE OMAR]
-
 EXT. DESIERTO MALI. ZONA MUERTE SIDI - DÍA 3.80 3.80**
 Sidi, feliz, mira al cielo. Lleva consigo sus cosas y el 
 ajedrez. 
@@ -2825,7 +2823,7 @@ function renderDays() {
       const scriptText = getSeqScript(seq.id);
       const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
       
-      const icon = isReference ? '<span style="opacity:0">⬜</span>' : STATUS_ICONS[seqStatus];
+      const icon = STATUS_ICONS[seqStatus];
       const scriptDot = (hasScript && !isReference) ? '<span class="seq-dot has">●</span>' : '<span class="seq-dot no" style="opacity: 0.3;">○</span>';
       return `<div class="day-seq-item">${icon} <span class="day-seq-id">Sec ${seq.id}</span> ${scriptDot} <span class="day-seq-syn">${seq.synopsis}</span></div>`;
     }).join('');
@@ -2885,7 +2883,7 @@ function renderDay(dayIndex) {
     
     html += `
       <div class="seq-card ${hasScript && !isReference ? 'seq-card-has-script' : ''}" onclick="openSequence(${dayIndex}, ${i})" role="button" tabindex="0" id="seq-card-${seq.id}">
-        <div class="seq-card-status" style="opacity: ${isReference ? '0' : '1'}">${STATUS_ICONS[status]}</div>
+        <div class="seq-card-status">${STATUS_ICONS[status]}</div>
         <div class="seq-card-info">
           <div class="seq-card-number">Sec ${seq.id}</div>
           <div class="seq-card-set">${seq.set}</div>
@@ -2921,14 +2919,10 @@ function renderSequence(dayIndex, seqIndex) {
   const isReference = script && script.includes('[SECUENCIA DE REFERENCIA');
   
   const statusBtn = document.getElementById('seq-status-btn');
-  if (isReference) {
-    statusBtn.style.display = 'none';
-  } else {
-    statusBtn.style.display = 'flex';
-    document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
-    document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
-    statusBtn.setAttribute('data-status', status);
-  }
+  statusBtn.style.display = 'flex';
+  document.getElementById('seq-status-icon').textContent = STATUS_ICONS[status];
+  document.getElementById('seq-status-text').textContent = STATUS_LABELS[status];
+  statusBtn.setAttribute('data-status', status);
   
   const scriptContainer = document.getElementById('seq-script-content');
   if (script) {
