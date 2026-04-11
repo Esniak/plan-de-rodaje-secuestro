@@ -915,7 +915,23 @@ body::before {
 .script-dialogue-text {
   padding: 2px 16px;
   color: var(--text-primary);
+  font-weight: 600;
   line-height: 1.6;
+}
+
+/* Arabic phonetic pronunciation guide */
+.script-arabic-phonetic {
+  padding: 3px 16px;
+  color: #5dd8b4;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  border-left: 3px solid rgba(93, 216, 180, 0.35);
+  margin: 2px 0 4px 13px;
+  background: rgba(93, 216, 180, 0.06);
+  border-radius: 0 4px 4px 0;
+  letter-spacing: 0.02em;
 }
 
 .script-action {

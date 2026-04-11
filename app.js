@@ -1021,6 +1021,7 @@ Les alcanza y rodea. Descubrimos el rostro de los detenidos junto con el mismo J
 …quien está arrodillado al lado de Amir y al compañero, no es Mokthar, sino Omar. El mercenario le mira con odio.
 OMAR (en francés)
 Os vais a arrepentir por esto.
+[ÁRABE] vuZalé ló řĕgřete
 A pesar de que podamos ver solo sus ojos a través del tagelmust, percibimos la decepción en el rostro de Javier. El agente del CNI piensa rápido.`,
   "3.51": `OMAR — 3.51
 Estado: en trabajo
@@ -1073,8 +1074,11 @@ MOKTHAR Celebramos tu regreso, hermano.
 (en árabe) Espero que no te olvides de lo que he hecho por ti.
 Omar, a regañadientes, se lo agradece con un gesto.
 OMAR No me olvido, Mokthar.
+[ÁRABE] lám ánsa yabrahím
 (alude a los rehenes) Ni olvido la traición de su gobierno cuando me cogieron.
+[ÁRABE] kamá lám ánsa Jíáanatcha Hukúmatchihím ïndama jtchaTafúni
 (con resentimiento) No la olvido. Y la vengaré.
+[ÁRABE] lám ánsa dálik wasáwfa ántchaqim
 Omar mira directamente a Àlvar y Jose.
 MOKTHAR Tu regreso es motivo de alegría, Omar…
 (le deja las cosas clara) …pero hay que usar la cabeza.
@@ -2695,6 +2699,13 @@ function formatScriptContent(rawText) {
       continue;
     }
     
+    // Arabic phonetic line detection (marked with [ÁRABE] prefix)
+    if (line.startsWith('[ÁRABE]')) {
+      const arabicText = line.substring('[ÁRABE]'.length).trim();
+      html += `<div class="script-arabic-phonetic">${escapeHtml(arabicText)}</div>`;
+      continue;
+    }
+    
     // Dialogue detection
     if (inScriptSection) {
       let isDialogue = false;
@@ -3029,7 +3040,7 @@ function showAllSequences() {
   document.getElementById('nav-calendar').classList.remove('active');
   document.getElementById('nav-all-seqs').classList.add('active');
   
-  // Group all sequences by numerical order
+  // Collect all sequences in SHOOTING SCHEDULE order (plan de rodaje)
   const allSeqs = [];
   SCHEDULE.forEach((day, dayIdx) => {
     day.sequences.forEach((seq, seqIdx) => {
@@ -3037,36 +3048,27 @@ function showAllSequences() {
     });
   });
   
-  // Sort by sequence ID numerically
-  allSeqs.sort((a, b) => {
-    const numA = parseFloat(a.id.split('-')[0]);
-    const numB = parseFloat(b.id.split('-')[0]);
-    if (numA !== numB) return numA - numB;
-    return a.id.localeCompare(b.id);
-  });
+  // NO sorting — keep the order of the shooting schedule (plan de rodaje)
   
-  // Group by chapter (first digit)
-  const chapters = {};
-  allSeqs.forEach(seq => {
-    const chapter = seq.id.split('.')[0];
-    if (!chapters[chapter]) chapters[chapter] = [];
-    chapters[chapter].push(seq);
-  });
-  
-  // Render
+  // Render — grouped by shooting day
   const container = document.getElementById('sequences-list');
   let html = '';
+  let seqCounter = 0;
   
-  for (const [chapter, seqs] of Object.entries(chapters)) {
-    html += `<div class="all-seq-header">Capítulo ${chapter} — ${seqs.length} secuencias</div>`;
-    seqs.forEach(seq => {
+  SCHEDULE.forEach((day, dayIdx) => {
+    const dayLabel = `${getWeekday(day.date)}, ${formatDate(day.date)}`;
+    html += `<div class="all-seq-header">📅 ${dayLabel} — ${day.sequences.length} sec</div>`;
+    day.sequences.forEach((seq, seqIdx) => {
+      seqCounter++;
       const status = getSeqStatus(seq.id);
       const hasScript = !!getSeqScript(seq.id);
+      const scriptText = getSeqScript(seq.id);
+      const isReference = scriptText && scriptText.includes('[SECUENCIA DE REFERENCIA');
       html += `
-        <div class="seq-card ${hasScript ? 'seq-card-has-script' : ''}" onclick="openSequence(${seq.dayIndex}, ${seq.seqIndex})" role="button" tabindex="0">
+        <div class="seq-card ${hasScript && !isReference ? 'seq-card-has-script' : ''}" onclick="openSequence(${dayIdx}, ${seqIdx})" role="button" tabindex="0">
           <div class="seq-card-status">${STATUS_ICONS[status]}</div>
           <div class="seq-card-info">
-            <div class="seq-card-number">Sec ${seq.id} <span style="color:var(--text-muted);font-size:0.65rem;font-weight:400">· ${formatDateShort(seq.date)}</span></div>
+            <div class="seq-card-number"><span style="color:var(--text-muted);font-size:0.65rem;font-weight:500;margin-right:4px">${seqCounter}.</span>Sec ${seq.id}</div>
             <div class="seq-card-set">${seq.set}</div>
             <div class="seq-card-synopsis">${seq.synopsis}</div>
           </div>
@@ -3076,7 +3078,7 @@ function showAllSequences() {
         </div>
       `;
     });
-  }
+  });
   
   navHistory = ['days'];
   currentView = 'day';
@@ -3085,7 +3087,7 @@ function showAllSequences() {
   document.getElementById('view-day').classList.add('active');
   
   document.getElementById('day-header-card').innerHTML = `
-    <div class="day-header-date">Todas las Secuencias</div>
+    <div class="day-header-date">Orden del Plan de Rodaje</div>
     <div class="day-header-meta">
       <span class="day-header-location">${allSeqs.length} secuencias en ${SCHEDULE.length} días de rodaje</span>
     </div>
@@ -3096,7 +3098,7 @@ function showAllSequences() {
   document.getElementById('btn-back').classList.remove('hidden');
   document.getElementById('header-badge').classList.add('hidden');
   document.getElementById('header-title').textContent = 'SECUENCIAS';
-  document.getElementById('header-subtitle').textContent = 'Todas · 8.OMAR';
+  document.getElementById('header-subtitle').textContent = 'Plan de Rodaje · 8.OMAR';
   
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
