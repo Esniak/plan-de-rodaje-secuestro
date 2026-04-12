@@ -934,6 +934,36 @@ body::before {
   letter-spacing: 0.02em;
 }
 
+/* Arabic audio button */
+.arabic-audio-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  padding: 2px 4px;
+  margin-right: 4px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  vertical-align: middle;
+  line-height: 1;
+}
+
+.arabic-audio-btn:hover {
+  background: rgba(93, 216, 180, 0.2);
+  transform: scale(1.15);
+}
+
+.arabic-audio-btn:active {
+  transform: scale(0.95);
+}
+
+.arabic-audio-placeholder {
+  font-size: 0.75rem;
+  opacity: 0.3;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
 .script-action {
   padding: 3px 4px;
   color: var(--text-secondary);

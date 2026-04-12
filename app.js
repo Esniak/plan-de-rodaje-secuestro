@@ -1,3 +1,17 @@
+// ============ ARABIC AUDIO MAP ============
+// Map phonetic text → audio filename in audios/ folder
+// The user will add audio files and update this map
+const ARABIC_AUDIOS = {
+  // Example: 'aHíTo biSHáaHina': 'audios/1.6_rodead_el_camion.mp3',
+  // Add entries as audio files become available
+};
+
+// Play Arabic pronunciation audio
+function playArabicAudio(filename) {
+  const audio = new Audio(filename);
+  audio.play().catch(e => console.warn('Audio playback failed:', e));
+}
+
 // ============ SEQUENCE SCRIPTS DATA ============
 const SCRIPTS = {
   "1.06-A": `OMAR — 1.6
@@ -50,6 +64,7 @@ El camión y las pick up se han detenido en medio de la nada. Los guerrilleros b
 TODOS LOS SECUESTRADORES HABLAN ENTRE ELLOS EN ÁRABE.
 OMAR
 Rodead el camión.
+[ÁRABE] aHíTo biSHáaHina
 Sidi, nervioso, obedece. Seguimos el asalto a través de él.
 Grita a su vez a los españoles, en español.
 SIDI
@@ -62,6 +77,7 @@ El dinero está aquí… No tenemos nada más. Somos cooperantes…
 OMAR
 (a Sidi)
 ¿Qué dice?
+[ÁRABE] máda iaqúl
 Sidi no parece haber entendido y no consigue traducir. Además el niño está superado por la situación.
 Àlvar enseña su riñonera, que Omar le arranca sin dudarlo.
 ÀLVAR
@@ -69,6 +85,7 @@ Sidi no parece haber entendido y no consigue traducir. Además el niño está su
 Somos de una ONG, no tenemos más. Venimos de Barcelona a…
 OMAR (frances)
 Las manos contra el camión.
+[ÁRABE] Le me contr le camión
 ÀLVAR
 Dice que pongamos las manos contra el camión.
 Tranquilos. Hagamos lo que dicen. No va a pasar nada.
@@ -113,6 +130,7 @@ NÚRIA
 Omar va hacia Sidi, le quita el arma.
 OMAR
 ¿¡Qué has hecho?!
+[ÁRABE] Máda faältch?
 Sidi es el más asustado. Evidentemente no fue algo consciente.
 Acto seguido, Omar observa a Àlvar, mientras la sangre le empapa toda su pierna y el hombre se retuerce por el dolor.
 AMIR
@@ -122,6 +140,7 @@ Mientras Jose y Núria se desesperan porque los guerrilleros les impiden socorre
 …Omar piensa. Vuelve a mirar a Sidi, duro. Desahoga su frustración propinando un violento bofetón al niño.
 OMAR
 ¡Idiota\\!
+[ÁRABE] Ghabíí.
 COMENTARISTA RADIO (O.S.)
 Atención, Dani Alves en la banda… centra… Ibrahimovic en el
 segundo palo… Gooollll… Gooooll… Gooollll…
@@ -148,6 +167,7 @@ El rostro de Omar que mira frío a Àlvar. ¿Le va a matar?
 Luego se gira hacia a Sidi, que le mira asustado.
 OMAR
 ¡Todos arriba\\! ¡Vamos\\!
+[ÁRABE] Líarkabi Lğamíë. háiia
 Las pick ups arrancan y dejan el camión de la ONG, solo y abierto, en medio de la carretera. Todavía suena la locución del partido.`,
   "1.07-A1": `OMAR — 1.7
 Estado: en trabajo
@@ -237,9 +257,15 @@ Cuando les descubren la cara, Jose y Núria se asustan mucho al verlo así. Trat
 JOSE ¡Necesita un hospital! ¡A hospital! ¡Please!
 Omar hace una señal para que muevan a Jose y a Núria a la otra pick-up dejando solo a Àlvar. Por mucho que se resistan, no logran nada.
 OMAR (sobre Sidi)
-Hay que pegarle un tiro. Hay que pegarle un tiro en la cara.
+Hay que pegarle un tiro.
+[ÁRABE] iállibu anníorma birrasás
+Hay que pegarle un tiro en la cara.
+[ÁRABE] iállibu anníorma birrasáse fiiwallhéh
 GUERRILLERO 1 Es solo un niño.
-OMAR Nos ha metido en un problema. Y yo no quiero problemas con Mokthar. Y tú tampoco.
+OMAR
+Nos ha metido en un problema. Y yo no quiero problemas con Mokthar. Y tú tampoco.
+[ÁRABE] ad-jálana fimúshkil. ána lá-urídu mashákil maä Brahím
+[ÁRABE] wa-ántcha áiDan látchuríduha
 Omar manda a Sidi, muy asustado, quedarse en la pick up con Àlvar. Mientras, el Guerrillero 1 advierte a Jose.
 AMIR Si no bebes ahora, el próximo pozo está a más de seis horas.
 Jose se calla y bebe mientras el resto de guerrilleros se dividen entre las dos camionetas y retoman la marcha. Sidi se ha quedado al lado de Àlvar que intenta encontrar a sus compañeros en vano. Parece que está empeorando.`,
@@ -297,8 +323,10 @@ Mokthar llega justo cuando las dos pick ups llegan al campamento. Los vehículos
 Los guerrilleros de Mokthar preparan la llegada, comprobando el interior de los coches.
 Omar sale del primer vehículo y va al encuentro de Mokthar, saludándole con un apretón de mano largo y tocándose el pecho, después.
 OMAR Que la paz sea contigo.
+[ÁRABE] assalámu äleykum
 MOKTHAR Y contigo también.
 OMAR Te traigo a los rehenes.
+[ÁRABE] atchéitchu láka bírrahá-in
 MOKTHAR Enséñamelos.
 Omar hace señas a sus hombres y, al rato, de los asientos traseros del primer vehículo, bajan a Jose y a Núria que han hecho el viaje con unas capuchas en la cabeza. Al quitárselas de forma repentina, quedan cegados por la luz.
 JOSE ¿Dónde está Àlvar?
@@ -316,10 +344,14 @@ Mokthar, durante un instante, observa a Núria, pero parece más interesado en �
 Sidi observa desde la distancia, compungido, sin atreverse a acercarse. Notamos que le han quitado el arma y le ignoran.
 Cuando nos acercamos a Àlvar junto con Mokthar, podemos comprobar que la pierna está empapada de sangre, que el hombre está semi inconsciente pero vivo aún.
 OMAR Alá lo quiso. Les puso en nuestra ruta.
+[ÁRABE] irádatchu llah. waDaähu fiTaríqina
 (orgulloso) …y yo tenía controlados sus movimientos por su blog…
+[ÁRABE] wa-ána kúntchu mutchaHá-kkiman fíítchaHárrukátchihim
+[ÁRABE] änTaríqi múda-wwánatchihím..
 MOKTHAR Me traes a un hombre medio muerto… y a una mujer.
 (pausa) ¿Qué crees que va a pasar si este hombre muere, Omar?
 OMAR Ha sido el niño. El niño que tú metiste en mi grupo.
+[ÁRABE] ín-naho TTéfl. a-TTéflo Ládi adjáltcha fíllamáätchi
 MOKTHAR Como te metí a ti al mando de la operación.
 Omar indica a Sidi, que percibe sobre sí las miradas de Omar y también de Mokthar. El chaval parece estar a punto de llorar, pero aguanta.
 Mokthar hace un gesto a un tuareg que estaba en el campamento con él.
@@ -330,6 +362,7 @@ MOKTHAR (a Omar) Una mujer en el campamento es un problema. Ahora es tu problema
 Dicho esto, Mokthar se retira a su tienda.
 Omar no parece encajar bien el tono de reproche de Mokthar. Grita algo a sus hombres desahogando su frustración con ellos.
 OMAR La mujer al agujero.
+[ÁRABE] almár-a ílalHófra
 Acto seguido, los hombres de Omar separan de malas maneras a Jose y a Núria, amenazándola con las armas pero sin tocarla con las manos.
 Los hombres se la llevan mientras obligan a Jose a estar arrodillado en su sitio.
 NÚRIA ¡No! ¡Nooo! ¡Jose!
@@ -427,7 +460,9 @@ Se hace silencio. Hasta que
 SIDI (O.S.) ¡La mujer! ¡La mujer!
 Desde lo alto de la duna donde hace la centinela, Sidi da la alarma.
 Omar ve el zulo de Núria sin techo y ahí con él al guerrillero que supuestamente debería vigilarla.
-OMAR ¡Se ha escapado!`,
+OMAR
+¡Se ha escapado!
+[ÁRABE] laqád fárratch`,
   "1.38": `OMAR — 1.38
 Estado: en trabajo
 Lo que necesito antes de grabar
@@ -625,25 +660,41 @@ MOKTHAR Venid aquí, todos.
 …Sidi y los demás guerrilleros acuden de todos sitios. Nos acercamos a ellos. La conversación se tiene en árabe.
 MOKTHAR (CONT’D) Anoche los franceses atacaron un campamento de hermanos en Mauritania.
 Omar integra la información, enfadado.
-OMAR Les han masacrado a todos, como animales. A todos. Traición. Estaban negociando, y atacaron. Como van a hacer con nosotros.
+OMAR
+Les han masacrado a todos, como animales. A todos. Traición.
+[ÁRABE] láqad qatchalúhum llamíän kálHaiawánatch. llamíän. Jiána.
+Estaban negociando, y atacaron. Como van a hacer con nosotros.
+[ÁRABE] kánú iatchafáwaDun fahállamúhum. seiafälúna bína náfsa sshéi-e
 Enfado y desconcierto entre los demás guerrilleros. Sidi observa todo, sin proferir palabra.
-OMAR (CONT’D) Tenemos que vengarles. Darles una lección. Nunca van a pagar. Trae la cámara. El mundo entero lo verá…
+OMAR (CONT’D)
+Tenemos que vengarles. Darles una lección. Nunca van a pagar.
+[ÁRABE] iállibu an-nántchaqem. Wanolá-qqinohom dársan. lániadfaü lmála ábadan...
+Trae la cámara. El mundo entero lo verá…
+[ÁRABE] áHdere lkáamera líkay iaradálika läálamu bi-ásrih
 (mira a los rehenes) …su sangre vengará a nuestros hermanos.
+[ÁRABE] dámuhum saiáz-áro li-iJwániná
 Hay gestos y gritos de apoyo de algunos compañeros. Sidi mira atento a Mokthar que se mantiene impasible.
 MOKTHAR Nuestros hermanos merecen venganza… pero si matamos a los rehenes, todo lo que hemos hecho hasta ahora, habrá sido para nada.
 Las palabras de Mokthar calman a algunos. Uno de ellos: Sidi.
 OMAR “Si castigáis, hacedlo con la misma medida con que fuisteis agraviados”
+[ÁRABE] Wa-ín äáqabtchum,faäáqibúhum bimízle má öúqíbtchum bihí
 MOKTHAR ¿Y qué harás, cuando vuelvas a casa con tu mujer y tus hijos después de cuatro meses, sin dinero, sin nada? ¿Y los demás? ¿Qué haréis? ¿Diréis que os habéis vengado por un francés en Mauritania?
-OMAR Ahora es tiempo de la yihad. Y si tú crees que no es así, tal vez necesitamos a otro jefe.
+OMAR
+Ahora es tiempo de la yihad. Y si tú crees que no es así,
+[ÁRABE] al-ána wáqtchu lğihád. wa-ín kúntcha látchaDónno dálik.
+tal vez necesitamos a otro jefe.
+[ÁRABE] faróbbámaa naHtchállu iláqá-ídin áajar
 Omar cuestiona directamente al jefe. Un amago de amotinamiento. Y a juzgar por el rostro de algunos guerrilleros, parece que Omar tiene acólitos.
 MOKTHAR La venganza requiere paciencia y cerebro. Y de eso, tú, no tienes.
 OMAR Saben dónde estamos. Tal vez esta noche vengan a por nosotros.
+[ÁRABE] ínnahum äla ïlmin bimakániná. róbbamá iuhállimúnana lLáyla
 Mokthar y Omar se miran, serios. Durante un momento los guerrilleros y nosotros mismos espectadores tenemos la sensación de que Mokthar ha accedido a ajusticiar a los rehenes-
 MOKTHAR …pero es una decisión demasiado importante para que la tomes tú o yo por todos. Que sea la mayoría quien decida.
 Omar mira a los hombres, preocupado. La sensación es que Mokhtar tenga la situación controlada. Pero no puede negarse, parece.
 Cada guerrillero coge una PIEDRA. Empieza el ritual de votaciones.
 El primero en tirar la piedra es Omar. La tira a la derecha de una línea.
 OMAR Sangre por sangre.
+[ÁRABE] addámu biddám
 Acto seguido le toca a Mokhtar, que tira su piedra al otro lado. Uno a uno.
 MOKTHAR Sangre por sangre.
 Empiezan a votar los demás guerrilleros, tirando su piedra a un lado y al otro de la línea.
@@ -651,11 +702,18 @@ Las piedras se amontonan a un lado y al otro de la línea… hasta llegar a un e
 MOKTHAR (CONT’D) Sidi.
 Todas las miradas hacia él.
 OMAR El niño no vota.
+[ÁRABE] aTTéflu lá-oSáwwetch
 MOKTHAR Es un hermano como lo eres tú.
 La afirmación de Mokthar parece tener sentido para todos.
 MOKTHAR (CONT’D) (a Sidi) Coge una piedra. Decidas lo que decidas, estará bien. Alá decidirá por ti.
 Sidi, nervioso, coge su piedra. Se acerca a la línea para tirarla a un lado o al otro. Parece que tiene claro dónde la va a tirar. Pero Omar interviene…
-OMAR (a Sidi, para convencerle) Acabemos con esto y volvamos a casa, ahora. ¿Quieres volver a tu casa, no? ¿A la Madrassa, con tu madre?
+OMAR (a Sidi, para convencerle)
+Acabemos con esto y volvamos a casa, ahora.
+[ÁRABE] linántchahi minháada wanaüdu ilalbéitchi l-án.
+¿Quieres volver a tu casa, no?
+[ÁRABE] tchuridu antchaüda ilábéitchik, aláisa kadálik?
+¿A la Madrassa, con tu madre?
+[ÁRABE] ilalmádrasa, maä wálidatchik?
 Sidi duda. Mira a Mokthar.
 Finalmente tira la piedra…en el montón de Mokthar.
 El enfado de Omar es mayúsculo pero no puede hacer nada sino tragarse su rabia. No esconde la mirada de odio hacia Sidi.
@@ -664,6 +722,7 @@ Omar baja la mirada, en señal de rendición.
 MOKTHAR (CONT’D) Me has faltado al respeto. Si no fueras sobrino de quien eres, ahora mismo tu futuro sería tan oscuro como el de los españoles. Lo que les pase a ellos te pasará a ti.
 Omar duda. Finalmente.
 OMAR Tú eres nuestro líder.
+[ÁRABE] Ántcha qá-iduná
 Mokthar se acerca a los secuestrados.
 MOKHTAR España no paga. España no os quiere. Dejad de pensar en vuestras familias. Esto va a ser largo.
 (En árabe) ¡Recoged! ¡Nos trasladamos!`,
@@ -777,15 +836,24 @@ Al amanecer, los dos guerrilleros que se sobrepasaron con Núria, arrodillados e
 En el centro del campamento todos los demás guerrilleros observan. Hay cierto descontento por ese castigo.
 Mokthar se acerca a Omar.
 MOKTHAR Una mujer es un problema.
-OMAR Llevamos demasiado tiempo aquí, aislados. Este castigo es injusto.
+OMAR
+Llevamos demasiado tiempo aquí, aislados.
+[ÁRABE] náHnu huná maëZulúna mundo wáqtchin Tawíl.
+Este castigo es injusto.
+[ÁRABE] háda lëqábu láisa äádilan
 Mokthar pondera la frase de Omar. Parece que los guerrilleros alrededor le apoyan.
 Le mira, como diciendo que sabe perfectamente de quién habla.
 Omar le sostiene la mirada mientras Mokhtar regresa a su tienda.
 La mirada de Omar pasa entonces a Sidi, quién, sintiéndose aludido, disimula. Parece evidente que Omar sabe quién ha sido el espía.
 Al fondo del campamento la fustigación ha acabado.
-OMAR (CONT’D) (a otros guerrilleros) Ayudad a vuestros hermanos, ahora. Ponedles miel sobre las heridas y dadle doble ración de leche y dátiles.
+OMAR (CONT’D) (a otros guerrilleros)
+Ayudad a vuestros hermanos, ahora. Ponedles miel sobre las heridas
+[ÁRABE] sáïdu íJwátchikum al-ána. Dáö läsala älá lliráHihim
+y dadle doble ración de leche y dátiles.
+[ÁRABE] waëTóhum HéSSa moDáäfa mína lHalíbi watCHámr
 Algunos guerrilleros van a socorrer a los dos fustigados.
 OMAR (CONT’D) Peor es tener a un traidor entre nosotros.
+[ÁRABE] al-aswae, húa wullúdi já-inín báinaná
 En la entrada de su tienda, Mokthar mira preocupado en dirección a la tienda de Núria.`,
   "2.42": `2.42
 Estado: cerrado ✅
@@ -900,7 +968,9 @@ La agarran y se la llevan a la fuerza mientras otros apuntan con sus armas a Jos
 NÚRIA ¡Nooo! ¡Àlvar! ¡Jose!
 JOSE ¡Núria!
 Omar parece desquiciado.
-OMAR (en francés, a Àlvar y Jose) ¡Quietos vosotros dos! ¡Quietos!
+OMAR (en francés, a Àlvar y Jose)
+¡Quietos vosotros dos! ¡Quietos!
+[ÁRABE] núbullépa. Vudĕ núbullepa
 Núria mira hacia la tienda de Mokthar pero el hombre no está a la vista.
 La arrastran llevándola por los hombros, lejos.
 NÚRIA Soltadme. Por favor. ¡Nooo!
@@ -1076,9 +1146,9 @@ Omar, a regañadientes, se lo agradece con un gesto.
 OMAR No me olvido, Mokthar.
 [ÁRABE] lám ánsa yabrahím
 (alude a los rehenes) Ni olvido la traición de su gobierno cuando me cogieron.
-[ÁRABE] kamá lám ánsa Jíáanatcha Hukúmatchihím ïndama jtchaTafúni
+[ÁRABE] kamá lám ánsa Jíáánatcha Hukúmatchihím ïndama jtchaTafúni
 (con resentimiento) No la olvido. Y la vengaré.
-[ÁRABE] lám ánsa dálik wasáwfa ántchaqim
+[ÁRABE] lám ánsa dálik, wasáwfa ántchaqim
 Omar mira directamente a Àlvar y Jose.
 MOKTHAR Tu regreso es motivo de alegría, Omar…
 (le deja las cosas clara) …pero hay que usar la cabeza.
@@ -1157,9 +1227,11 @@ EXT. CAUTIVERIO 2 - DÍA 3.57
 Àlvar, con la mirada del killer, mueve a su vez. La reacción de los mercenarios parece testificar que es el fin del partido para Omar.
 SIDI Se ha acabado.
 OMAR Calla, espera.
+[ÁRABE] ósmutch. intcháDer
 Omar no se resigna a haber perdido.
 OMAR (CONT’D) (en francés, le acusa de timo)
 Esta pieza no estaba aquí.
+[ÁRABE] set piees neté pála
 ÀLVAR Esta pieza siempre ha estado ahí.
 Omar empuña el mango del cuchillo. Los demás mercenarios se ponen serios, sabedores de que la cosa puede acabar mal.
 JOSE Joder, Àlvar… dile que sí y listo. Que gane la partida.
@@ -1168,11 +1240,13 @@ Pero Àlvar no cede.
 La tensión alrededor del tablero de ajedrez está cada vez más alta.
 Omar saca el cuchillo.
 OMAR Has hecho trampa.
+[ÁRABE] láqad ghassháshtch
 Àlvar está a punto de replicar… cuando Sidi simula resbalarse y vuelca el tablero. La piezas caen al suelo.
 SIDI Lo siento…
 A Omar, una vez más, la intervención de Sidi en favor de los rehenes le sienta fatal.
 OMAR (amenazante, a Sidi)
 ¿De qué lado estas?
+[ÁRABE] Maä aiyi Tárafin antch
 Pero no hay tiempo para más. Los picks ups de los guerrilleros y de Chafi llegan al campamento.
 De un vehículo sale Mokthar. Ve la situación de Omar con Sidi, interviene.
 MOKTAHR Omar!
@@ -1209,7 +1283,9 @@ Secuencia de guión
 INT. CAUTIVERIO 2. TIENDA DE ÀLVAR Y JOSE - NOCHE 3.63
 Mientras el cronista de RNE sigue celebrando el gol, Jose y Àlvar se funden en un tremendo abrazo.
 Es tal su escándalo en la celebración… que Omar entra en la tienda, enfadado, apuntando con su AK 47.
-OMAR ¡Silencio! ¡Silencio!
+OMAR
+¡Silencio! ¡Silencio!
+[ÁRABE] sukútch.sukútch
 Pero Jose no entiende razones.
 JOSE ¿¡Hemos marcado!? ¡Goool! ¡Iniesta!
 RATATATATAT
@@ -1362,7 +1438,10 @@ LÍDER AL QAEDA El Mokthar que conocía yo, decía que hay victoria sólo con la
 MOKTHAR España no va a poder liberar a los presos de Mauritania. Les habéis pedido algo imposible.
 La conversación se mantiene con tono muy calmado, pero se respira tensión. Al líder de Al Qaeda no le hace demasiada gracia la respuesta de Mokthar.
 LÍDER AL QAEDA Tal vez la cosa está en que no les has presionado lo suficiente. No te olvides que tú tienes los rehenes y recibirás el dinero porque nosotros te hemos elegido. Y el Mokthar que yo conocía ya le habría enviado la cabeza de un rehén… para que entiendan que no tienen elección.
-OMAR (interviene, mirando a Mokthar) Y si siguen sin entenderlo… recibirán la cabeza de los otros dos.
+OMAR (interviene, mirando a Mokthar)
+Y si siguen sin entenderlo… recibirán la cabeza de los otros dos.
+[ÁRABE] wa-ín ístchamárro fí-ädami fáhmi dálik,
+[ÁRABE] saiástchálimúna ráh-say l-iznáini l-áajarayn
 LÍDER AL QAEDA (felicitando a Omar) Así se habla, sobrino.
 (a Mokthar, serio) Queremos la liberación de todos los presos. De todos.
 LÍDER AL QAEDA (CONT’D) (ref. a Omar) Y si el Mokthar que yo conocía no es el de ahora… quizá necesitemos a otro hermano al mando.
@@ -1382,6 +1461,7 @@ Se enfada con un mercenario que tiene demasiado cerca,
 alejándole, en árabe. 
 OMAR
 Aléjate.
+[ÁRABE] ibtcháïd
 Jose se percata de que Omar se está poniendo nervioso y, 
 disimuladamente, le susurra algo al oído de Àlvar. 
 JOSE
@@ -2659,6 +2739,21 @@ function formatScriptContent(rawText) {
     'Externa'
   ];
   
+  // Pre-scan: identify lines that immediately precede [ÁRABE] lines
+  // These are dialogue lines spoken in Arabic and should be rendered as bold dialogue
+  const linesBeforeArabic = new Set();
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].trim().startsWith('[ÁRABE]')) {
+      // Walk backwards to find the preceding non-empty, non-[ÁRABE] line
+      for (let j = i - 1; j >= 0; j--) {
+        const prev = lines[j].trim();
+        if (!prev || prev.startsWith('[ÁRABE]')) continue;
+        linesBeforeArabic.add(j);
+        break;
+      }
+    }
+  }
+
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
     if (!line) {
@@ -2702,7 +2797,12 @@ function formatScriptContent(rawText) {
     // Arabic phonetic line detection (marked with [ÁRABE] prefix)
     if (line.startsWith('[ÁRABE]')) {
       const arabicText = line.substring('[ÁRABE]'.length).trim();
-      html += `<div class="script-arabic-phonetic">${escapeHtml(arabicText)}</div>`;
+      const audioKey = arabicText.toLowerCase().replace(/[^a-záéíóúàèìòùäëïöüâêîôûñçğřĕïšž\s]/g, '').trim().substring(0, 30);
+      const hasAudio = typeof ARABIC_AUDIOS !== 'undefined' && ARABIC_AUDIOS[arabicText];
+      const audioBtn = hasAudio 
+        ? `<button class="arabic-audio-btn" onclick="playArabicAudio('${escapeHtml(ARABIC_AUDIOS[arabicText])}')" title="Escuchar pronunciación">🔊</button>`
+        : `<span class="arabic-audio-placeholder" title="Audio pendiente">🔇</span>`;
+      html += `<div class="script-arabic-phonetic">${audioBtn} ${escapeHtml(arabicText)}</div>`;
       continue;
     }
     
@@ -2734,6 +2834,21 @@ function formatScriptContent(rawText) {
       // Parenthetical on its own line in script
       if (line.startsWith('(') && line.endsWith(')')) {
         html += `<div class="script-dialogue-text"><span class="script-parenthetical">${escapeHtml(line)}</span></div>`;
+        continue;
+      }
+      
+      // Lines that precede [ÁRABE] are dialogue (spoken in Arabic) — render as bold dialogue
+      // Also handle parenthetical + dialogue combos like "(alude a los rehenes) Ni olvido..."
+      if (linesBeforeArabic.has(i)) {
+        const parenDialogue = line.match(/^(\([^)]*\))\s+(.+)/);
+        if (parenDialogue) {
+          // Parenthetical + dialogue text on same line
+          html += `<div class="script-dialogue-text"><span class="script-parenthetical">${escapeHtml(parenDialogue[1])}</span></div>`;
+          html += `<div class="script-dialogue-text">${escapeHtml(parenDialogue[2])}</div>`;
+        } else {
+          // Pure dialogue text (spoken in Arabic)
+          html += `<div class="script-dialogue-text">${escapeHtml(line)}</div>`;
+        }
         continue;
       }
       
